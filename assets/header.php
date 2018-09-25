@@ -1,10 +1,11 @@
 <?php
+  date_default_timezone_set('Europe/Bucharest');
   session_start();
 ?>
   <!DOCTYPE html>
   <html>
   <head>
-  <title>glade.CSS Template</title>
+  <title>Glade-MMORPG</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Example of external CSS-->

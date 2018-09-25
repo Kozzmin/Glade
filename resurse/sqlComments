@@ -1,0 +1,17 @@
+CREATE DATABASE gladeloginsistem;
+
+CREATE TABLE gladeloginsistem.comments (
+	cid int(11) NOT null AUTO_INCREMENT PRIMARY KEY,
+    uid varchar(128) NOT null,
+    date datetime NOT null,
+	message TEXT  NOT null
+);
+
+CREATE TABLE gladeloginsistem.users (
+	user_id int(11) NOT null AUTO_INCREMENT PRIMARY KEY,
+	user_first varchar(128) NOT null,
+	user_last varchar(128) NOT null,
+	user_email varchar(128) NOT null,
+	user_uid varchar(128) NOT null,
+	user_pwd varchar(128) NOT null
+);

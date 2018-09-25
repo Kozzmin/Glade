@@ -1,3 +1,17 @@
+<?php
+  include_once 'header.php';
+  include_once 'navbar.php';
+ ?>
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title></title>
+     <link rel="stylesheet" href="../glade.css">
+   </head>
+   <body>
+
+
 <div class="glade-container glade-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="glade-center">CONTACT</h3>
   <p class="glade-center glade-large">Lets get in touch. Send us a message:</p>
@@ -68,4 +82,8 @@ function glade_close() {
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
+
+
+<?php
+  include_once 'footer.php';
+ ?>

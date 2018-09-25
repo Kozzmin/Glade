@@ -60,10 +60,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .glade-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
 .glade-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
 .glade-bar{width:100%;overflow:hidden}.glade-center .glade-bar{display:inline-block;width:auto}
-.glade-bar .glade-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.glade-bar .glade-bar-item{float:left;width:auto;border:none;display:block;outline:0}
 .glade-bar .glade-dropdown-hover,.glade-bar .glade-dropdown-click{position:static;float:left}
 .glade-bar .glade-button{white-space:normal}
-.glade-bar-block .glade-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.glade-bar-block .glade-bar-item{width:100%;display:block;text-align:left;border:none;white-space:normal;float:none;outline:0}
 .glade-bar-block.glade-center .glade-bar-item{text-align:center}.glade-block{display:block;width:100%}
 .glade-responsive{display:block;overflow-x:auto}
 .glade-container:after,.glade-container:before,.glade-panel:after,.glade-panel:before,.glade-row:after,.glade-row:before,.glade-row-padding:after,.glade-row-padding:before,
@@ -125,7 +125,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .glade-greyscale,.glade-grayscale{filter:grayscale(75%)}.glade-greyscale-min,.glade-grayscale-min{filter:grayscale(50%)}
 .glade-sepia{filter:sepia(75%)}.glade-sepia-max,.glade-hover-sepia:hover{filter:sepia(100%)}.glade-sepia-min{filter:sepia(50%)}
 .glade-tiny{font-size:10px!important}.glade-small{font-size:12px!important}.glade-medium{font-size:15px!important}.glade-large{font-size:18px!important}
-.glade-xlarge{font-size:24px!important}.glade-xxlarge{font-size:36px!important}.glade-xxxlarge{font-size:48px!important}.glade-jumbo{font-size:64px!important}
+.glade-xlarge{font-size:24px!important}.glade-xxlarge{font-size:36px!important}.glade-xxxlarge{font-size:48px!important}.glade-jumbo{font-size:14px!important}
 .glade-left-align{text-align:left!important}.glade-right-align{text-align:right!important}.glade-justify{text-align:justify!important}.glade-center{text-align:center!important}
 .glade-border-0{border:0!important}.glade-border{border:1px solid #ccc!important}
 .glade-border-top{border-top:1px solid #ccc!important}.glade-border-bottom{border-bottom:1px solid #ccc!important}
@@ -276,7 +276,8 @@ img.avatar {
 }
 
 .container {
-    padding: 16px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 span.psw {
@@ -317,8 +318,7 @@ span.psw {
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover,.close:focus {
     color: red;
     cursor: pointer;
 }
@@ -363,14 +363,108 @@ body, html {
     min-height: 100%;
 
 }
-.glade-bar .glade-button {
-    padding: 16px;
-    margin:5px;
-}
+
 
   .error {
     color: red;
   }
   .success {
     color: green;
+  }
+  .dropdown {
+      float: left;
+      overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+      cursor: pointer;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+      background-color: red;
+  }
+
+  .glade-dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .glade-dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+
+  .glade-dropdown-content a:hover {
+      background-color: #ddd;
+  }
+
+  .show {
+      display: block;
+  }
+
+/* zona de comentarii*/
+  .comment-box{
+    width: 815px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+  }
+  .comment-box p{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+  }
+  .edit-form {
+    position: absolute;
+    top:0px;
+    right: 0px;
+  }
+  .edit-form button {
+  width: 40px;
+  height: 20px;
+  color: #282828;
+  background-color: #fff;
+  border:  1px solid black;
+  opacity: 0.7;
+  }
+  .edit-form button:hover {
+    opacity: 1;
+  }
+  .delete-form {
+    position: absolute;
+    top:0px;
+    right: 40px;
+  }
+  .delete-form button {
+  width: 50px;
+  height: 20px;
+  color: #282828;
+  background-color: #fff;
+  border:  1px solid black;
+  opacity: 0.7;
+  }
+  .delete-form button:hover {
+    opacity: 1;
+    background-color: red;
+    color: white;
   }

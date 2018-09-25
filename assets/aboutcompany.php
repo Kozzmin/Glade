@@ -1,3 +1,16 @@
+<?php
+  include_once 'header.php';
+  include_once 'navbar.php';
+ ?>
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title></title>
+     <link rel="stylesheet" href="../glade.css">
+   </head>
+   <body>
+
 <div class="glade-container" style="padding:128px 16px" id="about">
   <h3 class="glade-center">ABOUT THE COMPANY</h3>
   <p class="glade-center glade-large">Key features of our company</p>
@@ -24,3 +37,7 @@
     </div>
   </div>
 </div>
+
+<?php
+  include_once 'footer.php';
+ ?>
