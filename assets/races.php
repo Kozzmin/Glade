@@ -4,11 +4,12 @@
  ?>
 
  <!-- inceput de RACES Container -->
+</br>
+</br>
+</br>
 
-<div class="container-sub news-article races">
-</br>
-</br>
-</br>
+<div class="container-sub news-article races opacity">
+
 
        <div class="heading">
 

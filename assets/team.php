@@ -12,7 +12,7 @@
    <body>
 
 
-<div class="glade-container" style="padding:128px 16px" id="team">
+<div class="glade-container opacity" style="padding:128px 16px" id="team">
   <h3 class="glade-center">THE TEAM</h3>
   <p class="glade-center glade-large">The ones who runs this company</p>
   <div class="glade-row-padding glade-grayscale" style="margin-top:64px">

@@ -4,12 +4,12 @@
  ?>
 
 <!-- inceputde  CLASSES Container -->
+</br>
+</br>
+</br>
+<div class="container-sub news-article classes opacity">
 
-<div class="container-sub news-article classes">
 
-</br>
-</br>
-</br>
        <div class="heading">
 
            <h1>Classes</h1>

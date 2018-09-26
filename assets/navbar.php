@@ -87,9 +87,9 @@ include_once 'signup.php';
   </div>
 </div>
 
-      
+
       <a href="aboutcompany.php" class="glade-button glade-bar-item">ABOUT</a>
-      <a href="team.php" class="glade-button glade-bar-item"><i class="fa fa-user"></i>TEAM</a>
+      <a href="team.php" class="glade-button glade-bar-item">TEAM</a>
       <a href="work.php" class="glade-button glade-bar-item"><i class="fa fa-th"></i>WORK</a>
       <a href="contact.php" class="glade-button glade-bar-item"><i class="fa fa-envelope"></i> CONTACT</a>
 

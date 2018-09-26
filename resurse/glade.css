@@ -361,17 +361,13 @@ body, html {
     background-size: cover;
     background-image: url("../resurse/gladeLogo.png");
     min-height: 150%;
-
 }
-.bgimg-2 {
+.opacity{
     background-position: center;
     background-size: cover;
-    background-image: url("../resurse/gladeLogo.png");
+    background-image: url("../resurse/gladelogotransparentwhite.png");
     min-height: 150%;
-    opacity: 0.4;
 }
-
-
   .error {
     color: red;
   }

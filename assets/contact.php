@@ -12,7 +12,7 @@
    <body>
 
 
-<div class="glade-container glade-light-grey" style="padding:128px 16px" id="contact">
+<div class="glade-container glade-light-grey opacity" style="padding:128px 16px" id="contact">
   <h3 class="glade-center">CONTACT</h3>
   <p class="glade-center glade-large">Lets get in touch. Send us a message:</p>
   <div class="glade-row-padding" style="margin-top:64px">

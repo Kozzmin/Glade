@@ -14,7 +14,7 @@
 
 
 
-<div class="glade-container" style="padding:128px 16px" id="work">
+<div class="glade-container opacity" style="padding:128px 16px" id="work">
   <h3 class="glade-center">OUR WORK</h3>
   <p class="glade-center glade-large">What we've done for people</p>
 

@@ -55,7 +55,8 @@ function deleteComments($conn){
 
     $sql = "DELETE FROM comments WHERE cid='$cid'";
     $result = mysqli_query($conn, $sql);
-  
+
+ }
 }
 
 function getLogin($conn){
@@ -87,3 +88,4 @@ function getLogin($conn){
       exit();
     }
 }
+?>

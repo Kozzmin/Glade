@@ -1,5 +1,5 @@
 </br>
-</br>
+
 <header class="bgimg-1 glade-display-container glade-grayscale-min" id="home">
   <div class="glade-display-left glade-text-green" style="padding:48px"> <!-- Example of inline CSS-->
     </br>

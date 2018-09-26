@@ -14,9 +14,7 @@
             <div class="contents" id="top">
                 <h1>Exemplu de Game Overview</h1>
 
-                <div class="separation-contents">
-
-
+                <div class="separation-contents opacity">
 
                  <!-- inceput de nav -->
                     <div class="secondary-nav">
