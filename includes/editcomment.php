@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../includes/glade.css">
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -25,7 +25,7 @@
             <input type='hidden' name='cid' value='".$cid."'>
             <input type='hidden' name='uid' value='".$uid."'>
             <input type='hidden' name='date' value='".$date."'>
-            <textarea name='message'>".$message."</textarea></br>
+            <textarea  rows='10' cols='107' name='message'>".$message."</textarea></br>
             <button name='commentSubmit' type='submit'>Edit</button>
         </form>";
 ?>

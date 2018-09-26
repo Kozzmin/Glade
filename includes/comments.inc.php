@@ -23,7 +23,7 @@ function getComments($conn){
         <input type='hidden' name='cid' value='".$row['cid']."'>
         <button name='commentDelete' type='submit'>Delete</button>
         </form>
-      <form class='edit-form' method='POST' action='editcomment.php'>
+      <form class='edit-form' method='POST' action='../includes/editcomment.php'>
         <input type='hidden' name='cid' value='".$row['cid']."'>
         <input type='hidden' name='uid' value='".$row['uid']."'>
         <input type='hidden' name='date' value='".$row['date']."'>
@@ -55,7 +55,7 @@ function deleteComments($conn){
 
     $sql = "DELETE FROM comments WHERE cid='$cid'";
     $result = mysqli_query($conn, $sql);
-}
+  
 }
 
 function getLogin($conn){

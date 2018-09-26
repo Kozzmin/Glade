@@ -124,7 +124,12 @@
 	<br />
 	The world of <em>GLADE  </em> is a war-torn land spanning two continents, where trust and betrayal clash as three kingdoms vie for power. These kingdoms share a delicate balance of power; however, within each kingdom they are vulnerable to internal strife, as each manor has a strong desire for self-rule. Players rule supreme in this brutal and beautiful world filled with magical beasts, large-scale conflict, territories to conquer and rival clans to battle. With a strong emphasis on <a href="/en/game/the-library/pvp-activities/index.php">PvP</a>, you may find challenges around every corner in <em>GLADE  </em>, but you have the means to protect yourself. Develop your character and obtain the power to enforce your will upon the realm. Seize your destiny and allow your own hand to write the history of this world!</p>
 <p>
-	<a href="/media/content-images/game/GameOverview-dragon.jpg"> <img alt="GameOverview-dragon.jpg" class="mt-image-left" height="247" src="/media/content-images/game/thumbs/GameOverview-dragon-thumb-680x510-493.jpg" width="330" /></a><a href="/media/content-images/game/GameOverview-clanwar.jpg"> <img alt="GameOverview-clanwar.jpg" class="mt-image-right" height="247" src="/media/content-images/game/thumbs/GameOverview-clanwar-thumb-680x510-492.jpg" width="330" /></a><a href="/en/assets_c/2011/11/GameOverview-clanwar-492.php" onclick="window.open('/en/assets_c/2011/11/GameOverview-clanwar-492.php', 'popup','width=680, height=510,scrollbars=no,resizable=no, toolbar=no,directories=no,location=no,menubar=no,status=no,left=0, top=0'); return false"> </a><a href="/en/assets_c/2011/11/GameOverview-dragon-493.php" onclick="window.open('/en/assets_c/2011/11/GameOverview-dragon-493.php', 'popup','width=680, height=510,scrollbars=no,resizable=no, toolbar=no,directories=no,location=no,menubar=no,status=no,left=0, top=0'); return false"> </a></p>
+	<a href="/media/content-images/game/GameOverview-dragon.jpg"> <img alt="GameOverview-dragon.jpg" class="mt-image-left" height="247" src="/media/content-images/game/thumbs/GameOverview-dragon-thumb-680x510-493.jpg" width="330" /></a>
+  <a href="/media/content-images/game/GameOverview-clanwar.jpg"> <img alt="GameOverview-clanwar.jpg" class="mt-image-right" height="247" src="/media/content-images/game/thumbs/GameOverview-clanwar-thumb-680x510-492.jpg" width="330" /></a>
+  <a href="/en/assets_c/2011/11/GameOverview-clanwar-492.php" onclick="window.open('/en/assets_c/2011/11/GameOverview-clanwar-492.php', 'popup','width=680, height=510,scrollbars=no,resizable=no, toolbar=no,directories=no,location=no,menubar=no,status=no,left=0, top=0'); return false"> </a>
+  <a href="/en/assets_c/2011/11/GameOverview-dragon-493.php" onclick="window.open('/en/assets_c/2011/11/GameOverview-dragon-493.php', 'popup','width=680, height=510,scrollbars=no,resizable=no, toolbar=no,directories=no,location=no,menubar=no,status=no,left=0, top=0'); return false"> </a>
+</p>
+
 <ul>
 	<li>
 		<p>
@@ -188,5 +193,5 @@
 
  <?php
    include_once 'commentSection.php';
-   include_once 'footer.php';
+   include_once 'footerOverview.php';
   ?>

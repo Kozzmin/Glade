@@ -11,7 +11,12 @@
    </head>
    <body>
 
+
+<div >
+
+
 <div class="glade-container" style="padding:128px 16px" id="about">
+  <img src="../resurse/gladeLogo.png">
   <h3 class="glade-center">ABOUT THE COMPANY</h3>
   <p class="glade-center glade-large">Key features of our company</p>
   <div class="glade-row-padding glade-center" style="margin-top:64px">
@@ -37,7 +42,7 @@
     </div>
   </div>
 </div>
-
+</div>
 <?php
   include_once 'footer.php';
  ?>

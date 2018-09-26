@@ -360,8 +360,15 @@ body, html {
     background-position: center;
     background-size: cover;
     background-image: url("../resurse/gladeLogo.png");
-    min-height: 100%;
+    min-height: 150%;
 
+}
+.bgimg-2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../resurse/gladeLogo.png");
+    min-height: 150%;
+    opacity: 0.4;
 }
 
 
@@ -374,6 +381,7 @@ body, html {
   .dropdown {
       float: left;
       overflow: hidden;
+
   }
 
   .dropdown .dropbtn {
@@ -426,6 +434,7 @@ body, html {
     background-color: #fff;
     border-radius: 4px;
     position: relative;
+
   }
   .comment-box p{
     font-family: arial;
@@ -441,30 +450,37 @@ body, html {
   }
   .edit-form button {
   width: 40px;
-  height: 20px;
+  height: 24px;
   color: #282828;
   background-color: #fff;
-  border:  1px solid black;
+  border:  1px solid #4CAF50;
   opacity: 0.7;
   }
   .edit-form button:hover {
     opacity: 1;
+    background-color: #4CAF50;
   }
   .delete-form {
     position: absolute;
     top:0px;
-    right: 40px;
+    right: 50px;
   }
   .delete-form button {
-  width: 50px;
-  height: 20px;
+  width: 60px;
+  height: 25px;
   color: #282828;
   background-color: #fff;
-  border:  1px solid black;
+  border:  1px solid #4CAF50;
   opacity: 0.7;
   }
   .delete-form button:hover {
     opacity: 1;
     background-color: red;
     color: white;
+  }
+  #commentsTextarea {
+    width: 850px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
   }
