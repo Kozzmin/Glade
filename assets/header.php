@@ -8,6 +8,8 @@
   <title>Glade-MMORPG</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../resurse/favicon.ico" type="image/x-icon">
   <!-- Example of external CSS-->
   <link rel="stylesheet" href="../resurse/glade.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">

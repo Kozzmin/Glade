@@ -1,17 +1,17 @@
 <?php
-function setComments($conn) { //functia seteaza commenturile
+function setComments($conn, $currentPage) { //functia seteaza commenturile
   if(isset($_POST['commentSubmit'])){ // daca este apasat butonul commentSubmit,
     $uid = $_POST['uid'];
     $date = $_POST['date'];
     $message = $_POST['message'];
 
-    $sql = "INSERT INTO comments(uid, date, message) VALUES ('$uid', '$date', '$message')";
+    $sql = "INSERT INTO comments(uid, date, message, pageName) VALUES ('$uid', '$date', '$message', '$currentPage')";
     $result = mysqli_query($conn, $sql);
   }
 }
 
-function getComments($conn){
-  $sql = "SELECT * FROM comments";
+function getComments($conn, $currentPage){
+  $sql = "SELECT * FROM comments WHERE pageName='$currentPage'";
   $result = mysqli_query($conn, $sql);
   while ($row = mysqli_fetch_assoc($result)) { // cat timp avem un resultat cu comentariul
     echo "<div class='comment-box'><p>";
@@ -28,6 +28,7 @@ function getComments($conn){
         <input type='hidden' name='uid' value='".$row['uid']."'>
         <input type='hidden' name='date' value='".$row['date']."'>
         <input type='hidden' name='message' value='".$row['message']."'>
+        <input type='hidden' name='commentPage' value='".$currentPage."'>
         <button>Edit</button>
       </form>
     </div>";
@@ -35,7 +36,7 @@ function getComments($conn){
 }
 
 
-function editComments($conn) { //functia seteaza commenturile
+function editComments($conn, $commentPage) { //functia seteaza commenturile
   if(isset($_POST['commentSubmit'])){ // daca este apasat butonul commentSubmit,
     $cid = $_POST['cid'];
     $uid = $_POST['uid'];
@@ -44,7 +45,8 @@ function editComments($conn) { //functia seteaza commenturile
 
     $sql = "UPDATE comments SET message= '$message' WHERE cid= '$cid'";
     $result = mysqli_query($conn, $sql);
-    header("Location:../assets/index.php");
+
+    header("Location:../assets/$commentPage.php");
   }
 }
 
@@ -55,7 +57,6 @@ function deleteComments($conn){
 
     $sql = "DELETE FROM comments WHERE cid='$cid'";
     $result = mysqli_query($conn, $sql);
-
  }
 }
 

@@ -7,7 +7,7 @@
 </br>
 </br>
 </br>
-<div class="container-sub news-article classes opacity">
+<div class="glade-container news-article classes opacity">
 
 
        <div class="heading">

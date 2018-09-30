@@ -8,7 +8,7 @@
 </br>
 </br>
 
-<div class="container-sub news-article races opacity">
+<div class="glade-container news-article races opacity">
 
 
        <div class="heading">
@@ -20,7 +20,7 @@ Choosing your character&rsquo;s race and class is one of the most special and sh
 
        </div>
 
-       <div class="contents contents-overview">
+       <div class="glade-table glade-table-all contents-overview">
 
 
                    <a class="game-tile" id="tile-804" href="/en/game/races/human.php" style="background-image: url(/media/content-images/tiles/tile-races-human.jpg)">

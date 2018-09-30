@@ -20,31 +20,31 @@
 
   <div class="glade-row-padding" style="margin-top:64px">
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A microphone">
+      <img src="../resurse/amicrophone.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A microphone">
     </div>
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A phone">
+      <img src="../resurse/aphone.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A phone">
     </div>
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A drone">
+      <img src="../resurse/adrone.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A drone">
     </div>
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="Soundbox">
+      <img src="../resurse/asandbox.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="Soundbox">
     </div>
   </div>
 
   <div class="glade-row-padding glade-section">
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A tablet">
+      <img src="../resurse/atable.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A tablet">
     </div>
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A camera">
+      <img src="../resurse/acamera.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A camera">
     </div>
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A typewriter">
+      <img src="../resurse/atypewriter.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A typewriter">
     </div>
     <div class="glade-col l3 m6">
-      <img src="/gladeimages/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A tableturner">
+      <img src="../resurse/atableturner.jpg" style="width:100%" onclick="onClick(this)" class="glade-hover-opacity" alt="A tableturner">
     </div>
   </div>
 </div>

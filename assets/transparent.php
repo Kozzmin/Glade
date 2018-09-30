@@ -1,3 +1,0 @@
-<div class="opacity">
-
-</div>

@@ -2,9 +2,10 @@ CREATE DATABASE gladeloginsistem;
 
 CREATE TABLE gladeloginsistem.comments (
 	cid int(11) NOT null AUTO_INCREMENT PRIMARY KEY,
-    uid varchar(128) NOT null,
-    date datetime NOT null,
-	message TEXT  NOT null
+  uid varchar(128) NOT null,
+  date datetime NOT null,
+	message TEXT  NOT null,
+	pageName varchar(30) NOT NULL
 );
 
 CREATE TABLE gladeloginsistem.users (

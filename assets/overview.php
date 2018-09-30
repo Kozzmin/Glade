@@ -4,7 +4,7 @@
  ?>
  <!-- inceput de OVERVIEW Container -->
 
-    <div class="container-sub news-article game-overview">
+    <div class="glade-container news-article game-overview">
 
 
        </br>
@@ -20,46 +20,50 @@
                     <div class="secondary-nav">
                         <p class="secondary-nav-top"></p>
                         <ul class="menu-list">
-                           <ul class="menu-list">
-                             <li><a href="/en/game/game-overview/"><span class="link-text">Game Overview</span></a></li>
-                             <li><a href="/en/game/download/"><span class="link-text">Download and Installation</span><span class="indicator-closed">+</span><span class="indicator-opened inactive-indicator">-</span></a>
+                           <ul class="menu-list glade-ul">
+                             <li>Game Overview</li>
+                             <li>Download and Installation</a>
                                <ul class="menu-list">
-                                 <li><a href="https://account.ncsoft.com/signup/index"><span class="link-text">Account Creation</span></a></li>
-                                 <li><a href="/en/game/download/installation/"><span class="link-text">Installation</span></a></li>
-                                 <li><a href="/en/game/download/system-requirements/"><span class="link-text">System Requirements</span></a></li>
-                                 <li><a href="http://GLADE2.patcher.ncsoft.com/GLADE2/GLADE2Installer.exe"><span class="link-text">Download Game</span></a></li>
+                                 <li>Account Creation</li>
+                                 <li>Installation</li>
+                                 <li>System Requirements</li>
+                                 <li>Download Game</li>
                                </ul>
                              </li>
-                             <li><a href="/en/game/getting-started/"><span class="link-text">Getting Started</span><span class="indicator-closed">+</span><span class="indicator-opened inactive-indicator">-</span></a>
+                             <li>Getting Started
                                <ul class="menu-list">
-                                 <li><a href="/en/game/getting-started/how-to-play/"><span class="link-text">How to Play</span></a></li>
-                                 <li><a href="/en/game/getting-started/newbie-quest-guide/"><span class="link-text">Newbie Quest Guide</span></a></li>
-                                 <li><a href="http://www.GLADE2.com/en/game/path-to-awakening?section=intro"><span class="link-text">Path To Awakening</span></a></li>
-                                 <li><a href="/en/game/getting-started/"><span class="link-text">Getting Started</span></a></li>
+                                 <li>How to Play</li>
+                                 <li>Newbie Quest Guide</li>
+                                 <li>Path To Awakening</li>
+                                 <li>Getting Started</li>
                                </ul>
                              </li>
                              <li>
-                               <a href="/en/game/patch-notes/"><span class="link-text">Patch Notes</span><span class="indicator-closed">+</span><span class="indicator-opened inactive-indicator">-</span></a>
-                               <ul class="menu-list"><li><a href="http://www.GLADE2.com/media/content-images/patch-notes/GLADE%20 %20-%20Grand%20Crusade%20Patch%20Notes.pdf"><span class="link-text">Grand Crusade</span></a></li>
-                                 <li><a href="http://www.GLADE2.com/media/content-images/patch-notes/Helios%20Patch%20Notes.pdf"><span class="link-text">Helios</span></a></li>
-                                 <li><a href="http://www.GLADE2.com/media/content-images/news/04222015_Infinite-Odyssey-Patch%20Notes.pdf"><span class="link-text">Infinite Odysessy</span></a></li>
-                                 <li><a href="/en/game/patch-notes/ertheia/"><span class="link-text">Ertheia</span></a></li><li><a href="/en/game/patch-notes/valiance/"><span class="link-text">Valiance</span></a></li>
-                                 <li><a href="/en/game/patch-notes/lindvior/"><span class="link-text">Lindvior</span></a></li><li><a href="/en/game/patch-notes/glory-days/"><span class="link-text">Glory Days</span></a></li>
-                                 <li><a href="/en/game/patch-notes/tauti/"><span class="link-text">Tauti</span></a></li><li><a href="/en/game/patch-notes/harmony/"><span class="link-text">Harmony</span></a></li>
-                                 <li><a href="/en/game/patch-notes/goddess-of-destruction/"><span class="link-text">Goddess of Destruction</span></a></li>
-                                 <li><a href="/en/game/patch-notes/"><span class="link-text">Patch Notes Directory</span></a></li>
+                               Patch Notes
+                               <ul class="menu-list">
+                                 <li>Grand Crusade</span></a></li>
+                                 <li>Helios</li>
+                                 <li>Infinite Odysessy</li>
+                                 <li>Ertheia</li>
+                                 <li>Valiance</li>
+                                 <li>Lindvior</li>
+                                 <li>Glory Days</li>
+                                 <li>Tauti</span></a></li>
+                                 <li>Harmony</li>
+                                 <li>Goddess of Destruction</li>
+                                 <li>Patch Notes Directory</li>
                                </ul>
                              </li>
-                             <li><a href="/en/game/races/"><span class="link-text">Races</span><span class="indicator-closed">+</span><span class="indicator-opened inactive-indicator">-</span></a>
+                             <li>Races</a>
                                <ul class="menu-list">
-                                 <li><a href="/en/game/races/"><span class="link-text">Races Index</span></a></li>
-                                 <li><a href="/en/game/races/human.php"><span class="link-text">Human</span></a></li>
-                                 <li><a href="/en/game/races/elf.php"><span class="link-text">Elf</span></a></li>
-                                 <li><a href="/en/game/races/dark-elf.php"><span class="link-text">Dark Elf</span></a></li>
-                                 <li><a href="/en/game/races/orc.php"><span class="link-text">Orc</span></a></li>
-                                 <li><a href="/en/game/races/dwarf.php"><span class="link-text">Dwarf</span></a></li>
-                                 <li><a href="/en/game/races/kamael.php"><span class="link-text">Kamael</span></a></li>
-                                 <li><a href="/en/game/races/ertheia.php"><span class="link-text">Ertheia</span></a></li>
+                                 <li><a href="/game/races/"><span class="link-text">Races Index</span></a></li>
+                                 <li><a href="/game/races/human.php"><span class="link-text">Human</span></a></li>
+                                 <li><a href="/game/races/elf.php"><span class="link-text">Elf</span></a></li>
+                                 <li><a href="/game/races/dark-elf.php"><span class="link-text">Dark Elf</span></a></li>
+                                 <li><a href="/game/races/orc.php"><span class="link-text">Orc</span></a></li>
+                                 <li><a href="/game/races/dwarf.php"><span class="link-text">Dwarf</span></a></li>
+                                 <li><a href="/game/races/kamael.php"><span class="link-text">Kamael</span></a></li>
+                                 <li><a href="/game/races/ertheia.php"><span class="link-text">Ertheia</span></a></li>
                                </ul>
                              </li>
                              <li><a href="/en/game/classes/"><span class="link-text">Classes</span><span class="indicator-closed">+</span><span class="indicator-opened inactive-indicator">-</span></a>
@@ -91,11 +95,11 @@
                            </ul>
                           </ul>
 
-                        <ul class="promos">
+                        <ul class="promos glade-ul">
 
-                             <li><a href="" style="height: 245px; background-image: url(/media/content-images/sidebar-banner/-sidebar-PTA.jpg);">Experience Path to Awakening</a></li>
+                             <li><a href="" style="height: 245px;">Experience Path to Awakening</a></li>
 
-                             <li><a href="" style="height: 119px; background-image: url(/media/content-images/sidebar-banner/promo-play-truly-free-now.jpg);">Play Truly Free Now</a></li>
+                             <li><a href="" style="height: 119px;">Play Truly Free Now</a></li>
 
                         </ul>
                     </div>

@@ -48,7 +48,7 @@ include_once 'signup.php';
     }
     ?>
     <div class="glade-bar-item"> <!--SEARCH BAR-->
-      <form action="/action_page.php" class="">
+      <form action="../resurse/search.php" class="">
        <input type="text" placeholder="Search.." name="search" class="glade-button">
        <button type="submit" class="glade-button"><i class="fa fa-search"></i></button>
       </form>

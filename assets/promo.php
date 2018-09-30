@@ -6,7 +6,7 @@
       <p><a href="#work" class="glade-button glade-black"><i class="fa fa-th">&nbsp;</i> View Our Works</a></p>
     </div>
     <div class="glade-col m6">
-      <img class="glade-image glade-round-large" src="/gladeimages/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+      <img class="glade-image glade-round-large" src="../resurse/phone_buildings.jpg" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
