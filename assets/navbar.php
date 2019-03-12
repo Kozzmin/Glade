@@ -37,10 +37,10 @@ include_once 'signup.php';
         document.getElementById("myDropdown").classList.toggle("show");
     }
 </script>
-
+  <a name="top"></a>
 <div class="glade-top"> <!-- containerul principal care contine toate butoanele -->
   <div class="glade-white glade-card glade-bar" id="myNavbar">
-    <a href="../assets/index.php" class="glade-bar-item glade-button">GLADE</a>
+    <a href="index.php" class="glade-bar-item glade-button">GLADE</a>
 
     <?php
     if (isset($_SESSION['u_id'])){

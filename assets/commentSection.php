@@ -1,6 +1,6 @@
 <?php
-include '../includes/dbh.inc.php';
-include '../includes/comments.inc.php';
+include 'includes/dbh.inc.php';
+include 'includes/comments.inc.php';
 
 
 if(isset($_SESSION['u_id'])){

@@ -14,26 +14,26 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit-
 
 
   if(!$pwd == $pwdRepeat){
-    header("Location: ../assets/signup.php?signup=differentpasswords"); //verificarea parolei sa nu fie gresita
+    header("Location: ../index.php?signup=differentpasswords"); //verificarea parolei sa nu fie gresita
     exit();
   }
 
   //error handlers
   //check for empty fields
   if (empty($first) || empty($last) || empty($email) || empty($uid) || empty($pwd)) { // daca sunt EMPTY inputurile
-    header("Location: ../assets/?signup=empty"); //te trimit la locatia signup.php si am acest signup=empty pt medota GET
+    header("Location: ../index.php?signup=empty"); //te trimit la locatia signup.php si am acest signup=empty pt medota GET
     exit();
   } else {
     //check if  input characters are valid
 
     if (!preg_match("/^[a-zA-Z]*$/", $first) || !preg_match("/^[a-zA-Z]*$/", $last)) { //acest flitru returneaza False daca caracterele din $first si $last sunt invalide
-      header("Location: ../assets/?signup=invalid"); //te trimit la locatia signup.php si am acest signup=invalid pt medota GET
+      header("Location: ../index.php?signup=invalid"); //te trimit la locatia signup.php si am acest signup=invalid pt medota GET
       exit();
     } else {
       // check if email is valide
 
       if (!filter_var($email, FILTER_VALIDATE_EMAIL)) { // daca  nu este invalid  emailul returneaza false
-        header("Location: ../assets/?signup=email"); //te trimit la locatia signup.php si am acest signup=email pt medota GET
+        header("Location: ../index.php?signup=email"); //te trimit la locatia signup.php si am acest signup=email pt medota GET
         exit();
       } else { // daca este valid emailul
 
@@ -42,7 +42,7 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit-
       $resultCheck = mysqli_num_rows($result); //veriicare a randurilor din query
 
       if ($resultCheck > 0) {
-        header("Location: ../assets/?signup=usertaken"); //te trimit la locatia signup.php si am acest signup=usertaken pt medota GET
+        header("Location: ../index.php?signup=usertaken"); //te trimit la locatia signup.php si am acest signup=usertaken pt medota GET
         exit();
       } else {
         //hashing the password
@@ -50,7 +50,7 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit-
         //insert de user into the database
         $sql = "INSERT INTO users (user_first, user_last, user_email, user_uid, user_pwd) VALUES ('$first', '$last', '$email', '$uid', '$hashedPwd') ;";
         mysqli_query($conn, $sql);
-        header("Location: ../assets/?signup=success"); //te trimit la locatia signup.php si am acest signup=success pt medota GET pt a-l instiinta pe user ca este logat
+        header("Location: ../index.php?signup=success"); //te trimit la locatia signup.php si am acest signup=success pt medota GET pt a-l instiinta pe user ca este logat
         exit();
       }
         }

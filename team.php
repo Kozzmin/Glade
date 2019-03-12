@@ -1,24 +1,16 @@
 <?php
-  include_once 'header.php';
-  include_once 'navbar.php';
+  include_once 'assets/header.php';
+  include_once 'assets/navbar.php';
  ?>
- <!DOCTYPE html>
- <html lang="en" dir="ltr">
-   <head>
-     <meta charset="utf-8">
-     <title></title>
-     <link rel="stylesheet" href="../glade.css">
-   </head>
-   <body>
 
-
+ 
 <div class="glade-container opacity" style="padding:128px 16px" id="team">
   <h3 class="glade-center">THE TEAM</h3>
   <p class="glade-center glade-large">The ones who runs this company</p>
   <div class="glade-row-padding " style="margin-top:64px">
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
-        <img src="../resurse/sandorgabrielcosmin.jpg" alt="Gabriel" style="width:100%">
+        <img src="resurse/sandorgabrielcosmin.jpg" alt="Gabriel" style="width:100%">
         <div class="glade-container">
           <h3>Șandor Gabriel</h3>
           <p class="glade-opacity">CEO & Founder</p>
@@ -29,7 +21,7 @@
     </div>
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
-        <img src="../resurse/mirelapatrascu.jpg" alt="Mirela" style="width:100%">
+        <img src="resurse/mirelapatrascu.jpg" alt="Mirela" style="width:100%">
         <div class="glade-container">
           <h3>Mirela Patrascu</h3>
           <p class="glade-opacity">Art Director</p>
@@ -40,7 +32,7 @@
     </div>
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
-        <img src="../resurse/davidcimpoca.jpg" alt="Dan" style="width:100%">
+        <img src="resurse/davidcimpoca.jpg" alt="Dan" style="width:100%">
         <div class="glade-container">
           <h3>David Cimpoca</h3>
           <p class="glade-opacity">Designer</p>
@@ -51,7 +43,7 @@
     </div>
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
-        <img src="../resurse/alexandrucaraulan.jpg" alt="Dan" style="width:100%">
+        <img src="resurse/alexandrucaraulan.jpg" alt="Dan" style="width:100%">
         <div class="glade-container">
           <h3>Alexandru Caraulan</h3>
           <p class="glade-opacity">Web Designer</p>
@@ -64,5 +56,5 @@
 </div>
 
 <?php
-  include_once 'footer.php';
+  include_once 'assets/footer.php';
  ?>

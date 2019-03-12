@@ -1,6 +1,6 @@
 <?php
-  include_once 'header.php';
-  include_once 'navbar.php';
+  include_once 'assets/header.php';
+  include_once 'assets/navbar.php';
  ?>
 
  <!-- inceput de RACES Container -->
@@ -10,7 +10,7 @@
 
 <div class="glade-container news-article races opacity">
 
-
+       
        <div class="heading">
 
            <h1>Races</h1>
@@ -78,6 +78,6 @@ Choosing your character&rsquo;s race and class is one of the most special and sh
 
 
 <?php
-   include_once 'commentSection.php';
-   include_once 'footer.php';
+   include_once 'assets/commentSection.php';
+   include_once 'assets/footer.php';
 ?>

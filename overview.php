@@ -1,9 +1,9 @@
 <?php
-  include_once 'header.php';
-  include_once 'navbar.php';
+  include_once 'assets/header.php';
+  include_once 'assets/navbar.php';
  ?>
  <!-- inceput de OVERVIEW Container -->
-
+    
     <div class="glade-container news-article game-overview">
 
 
@@ -194,6 +194,6 @@
 
 
  <?php
-   include_once 'commentSection.php';
-   include_once 'footerOverview.php';
+   include_once 'assets/commentSection.php';
+   include_once 'assets/footer.php';
   ?>

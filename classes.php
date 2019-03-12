@@ -1,8 +1,8 @@
 <?php
-  include_once 'header.php';
-  include_once 'navbar.php';
+  include_once 'assets/header.php';
+  include_once 'assets/navbar.php';
  ?>
-
+ 
 <!-- inceputde  CLASSES Container -->
 </br>
 </br>
@@ -90,6 +90,6 @@ There are over 30 main classes in GLADE  that can generally be broken down into 
 </div><!-- Container-->
 
  <?php
-   include_once 'commentSection.php';
-   include_once 'footer.php';
+   include_once 'assets/commentSection.php';
+   include_once 'assets/footer.php';
   ?>

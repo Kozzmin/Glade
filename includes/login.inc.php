@@ -13,7 +13,7 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit
 
   if(empty($uid) || empty($pwd)){ // daca parola si username sunt EMPTY imputurile
 
-    header("Location: ../assets/index.php?login=empty"); // se executa trimiterea la pagina de login
+    header("Location: ../index.php?login=empty"); // se executa trimiterea la pagina de login
     exit();
   } else { //daca nu sunt EMPTY inputurile si daca de username exista in baza mea de date
 
@@ -24,7 +24,7 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit
     $resultCheck = mysqli_num_rows($result);//verficare a randurilor din query
     if ($resultCheck < 1) { //daca nu s-a gasit nimic in baza de date
 
-      header("Location: ../assets/index.php?login=error1");
+      header("Location: ../index.php?login=error1");
       exit();
     } else { // daca s-a gasit in baza de date
 
@@ -34,7 +34,7 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit
       $hashedPwdCheck = password_verify($pwd, $row['user_pwd']);
       if($hashedPwdCheck == false){ //daca nu se gaseste parola in baza de date
 
-        header("Location: ../assets/index.php?login=error2");
+        header("Location: ../index.php?login=error2");
         exit();
       } elseif($hashedPwdCheck == true) { //daca parola se gaseste in baza de date
 
@@ -44,13 +44,13 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit
         $_SESSION['u_last'] = $row['user_last'];
         $_SESSION['u_email'] = $row['user_email'];
         $_SESSION['u_uid'] = $row['user_uid'];
-        header("Location: ../assets/index.php?login=success");
+        header("Location: ../index.php?login=success");
         exit();
       }
       }
     }
   }
 } else {
-  header("Location: ../assets/index.php?login=error3");
+  header("Location: ../index.php?login=error3");
   exit();
 }
