@@ -7,10 +7,10 @@
 </br>
 </br>
 </br>
-
+<a name ="lainceput"></a>
 <div class="glade-container news-article races opacity">
 
-       
+
        <div class="heading">
 
            <h1>Races</h1>

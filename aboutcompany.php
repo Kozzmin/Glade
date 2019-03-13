@@ -6,7 +6,7 @@
 
 
 <div class="opacity">
-
+  <a name ="lainceput"></a>
 <div class="glade-container" style="padding:128px 16px" id="about">
   <h3 class="glade-center ">ABOUT THE COMPANY</h3>
   <p class="glade-center glade-large">Key features of our company</p>

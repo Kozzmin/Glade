@@ -3,7 +3,7 @@
   include_once 'assets/navbar.php';
  ?>
  <!-- inceput de OVERVIEW Container -->
-    
+    <a name ="lainceput"></a>
     <div class="glade-container news-article game-overview">
 
 

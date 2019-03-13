@@ -37,7 +37,7 @@ include_once 'signup.php';
         document.getElementById("myDropdown").classList.toggle("show");
     }
 </script>
-  <a name="top"></a>
+
 <div class="glade-top"> <!-- containerul principal care contine toate butoanele -->
   <div class="glade-white glade-card glade-bar" id="myNavbar">
     <a href="index.php" class="glade-bar-item glade-button">GLADE</a>
@@ -76,6 +76,7 @@ include_once 'signup.php';
 
 <div class="glade-bar-item">
   <div>
+
     <button class="glade-button dropbtn" onclick="myFunction()">GAME
     <i class="fa fa-caret-down"></i></button>
 
@@ -84,6 +85,7 @@ include_once 'signup.php';
       <a href="races.php">RACES</a>
       <a href="classes.php">CLASSES</a>
     </div>
+    
   </div>
 </div>
 

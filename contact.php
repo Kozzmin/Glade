@@ -3,7 +3,7 @@
   include_once 'assets/navbar.php';
  ?>
 
-
+<a name ="lainceput"></a>
 <div class="glade-container glade-light-grey opacity" style="padding:128px 16px" id="contact">
   <h3 class="glade-center">CONTACT</h3>
   <p class="glade-center glade-large">Lets get in touch. Send us a message:</p>

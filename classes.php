@@ -2,11 +2,14 @@
   include_once 'assets/header.php';
   include_once 'assets/navbar.php';
  ?>
- 
+
 <!-- inceputde  CLASSES Container -->
+<a name ="lainceput"></a>
 </br>
 </br>
 </br>
+</br>
+
 <div class="glade-container news-article classes opacity">
 
 
@@ -14,7 +17,8 @@
 
            <h1>Classes</h1>
            <p>
-There are over 30 main classes in GLADE  that can generally be broken down into ten main categories. However not all races can be any class so choose wisely.</p>
+There are over 30 main classes in GLADE  that can generally be broken down into
+ten main categories. However not all races can be any class so choose wisely.</p>
 
 
        </div>

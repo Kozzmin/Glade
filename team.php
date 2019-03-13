@@ -3,7 +3,7 @@
   include_once 'assets/navbar.php';
  ?>
 
- 
+ <a name ="lainceput"></a>
 <div class="glade-container opacity" style="padding:128px 16px" id="team">
   <h3 class="glade-center">THE TEAM</h3>
   <p class="glade-center glade-large">The ones who runs this company</p>
