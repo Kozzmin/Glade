@@ -3,7 +3,7 @@
   include_once 'assets/navbar.php';
  ?>
 
-<a name ="lainceput"></a>
+
 <div class="glade-container glade-light-grey opacity" style="padding:128px 16px" id="contact">
   <h3 class="glade-center">CONTACT</h3>
   <p class="glade-center glade-large">Lets get in touch. Send us a message:</p>
@@ -13,7 +13,8 @@
       <p><i class="fa fa-phone fa-fw glade-xxlarge glade-margin-right"></i> Phone: +40 724746802</p>
       <p><i class="fa fa-envelope fa-fw glade-xxlarge glade-margin-right"> </i> Email: sandorgabrielcosmim@yahoo.com</p>
       <br>
-      <form action="../includes/email.inc.php" target="_blank" method="POST">
+
+      <form action="includes/email.inc.php" target="_blank" method="POST">
         <p><input class="glade-input glade-border" type="text" placeholder="Name" required name="Name"/></p>
         <p><input class="glade-input glade-border" type="text" placeholder="Email" required name="Email"/></p>
         <p><input class="glade-input glade-border" type="text" placeholder="Subject" required name="Subject"/></p>
@@ -46,7 +47,7 @@ function myMap()
     zoom:12, scrollwheel: false, draggable: false,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
   var marker = new google.maps.Marker({
     position: myCenter,

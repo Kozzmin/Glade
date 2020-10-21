@@ -3,7 +3,7 @@
 session_start();
 if (isset($_POST['submit'])){ //daca este apasat butonul submit
 
-  include 'dbh.inc.php'; //conectiunea la baza de date
+  include 'dbh.inc.php'; //conexiunea la baza de date
 
   $uid = mysqli_real_escape_string($conn, $_POST['uid']); // variabila $uid primeste informatia din formular cu valoarea input - uid
   $pwd = mysqli_real_escape_string($conn, $_POST['pwd']);// variabila $pwd primeste informatia din formular cu valoarea input - pwd
@@ -17,7 +17,7 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit
     exit();
   } else { //daca nu sunt EMPTY inputurile si daca de username exista in baza mea de date
 
-    $sql = "SELECT * FROM users WHERE user_uid='$uid'"; // creem un query pt selectarea  usernameului
+    $sql = "SELECT * FROM users WHERE user_uid = '$uid'"; // creem un query pt selectarea  usernameului
 
     $result = mysqli_query($conn, $sql); // executam queriul
 
@@ -33,9 +33,9 @@ if (isset($_POST['submit'])){ //daca este apasat butonul submit
       //de hashing the password  + verificarea parolei
       $hashedPwdCheck = password_verify($pwd, $row['user_pwd']);
       if($hashedPwdCheck == false){ //daca nu se gaseste parola in baza de date
-
         header("Location: ../index.php?login=error2");
         exit();
+        
       } elseif($hashedPwdCheck == true) { //daca parola se gaseste in baza de date
 
         //logarea userlului

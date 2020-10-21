@@ -2,14 +2,7 @@
   include_once 'assets/header.php';
   include_once 'assets/navbar.php';
  ?>
-
-<!-- inceputde  CLASSES Container -->
-<a name ="lainceput"></a>
-</br>
-</br>
-</br>
-</br>
-
+<div style="padding:50px 16px"></div>
 <div class="glade-container news-article classes opacity">
 
 
@@ -84,14 +77,14 @@ ten main categories. However not all races can be any class so choose wisely.</p
 
 
 
-       </div><!-- .contents -->
+       </div>
 
 
 
 
 
 
-</div><!-- Container-->
+</div>
 
  <?php
    include_once 'assets/commentSection.php';

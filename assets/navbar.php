@@ -38,28 +38,34 @@ include_once 'signup.php';
     }
 </script>
 
-<div class="glade-top"> <!-- containerul principal care contine toate butoanele -->
+<div class="glade-top">
+  <!-- containerul principal care contine toate butoanele -->
   <div class="glade-white glade-card glade-bar" id="myNavbar">
+    <!--Home Button-->
     <a href="index.php" class="glade-bar-item glade-button">GLADE</a>
 
+    <!--User Button-->
     <?php
     if (isset($_SESSION['u_id'])){
-      echo "<button class='glade-button'><i class='fa fa-user'>  ".$_SESSION['u_uid']."</i></button>";
+
+      echo "<button class='glade-button'><i class='fa fa-user'>  " . $_SESSION['u_uid'] . "</i></button>";
     }
     ?>
-    <div class="glade-bar-item"> <!--SEARCH BAR-->
+
+    <div class="glade-bar-item">
+       <!--SEARCH BAR-->
       <form action="../resurse/search.php" class="">
        <input type="text" placeholder="Search.." name="search" class="glade-button">
        <button type="submit" class="glade-button"><i class="fa fa-search"></i></button>
       </form>
-    </div><!--SEARCH BAR-->
-
+    </div>
 
     <div class="glade-bar-item">
+      <!--LOGOUT button-->
       <?php
 
         if(isset($_SESSION['u_id'])){
-          echo '<form action="../includes/logout.inc.php" method="POST" class="glade-bar-item">
+          echo '<form action="includes/logout.inc.php" method="POST" class="glade-bar-item">
                   <button type="submit" name="submit" class="glade-button">LOGOUT</button>
                 </form>';
         } else {
@@ -85,7 +91,7 @@ include_once 'signup.php';
       <a href="races.php">RACES</a>
       <a href="classes.php">CLASSES</a>
     </div>
-    
+
   </div>
 </div>
 
@@ -114,3 +120,4 @@ include_once 'signup.php';
 
 </div>
 </div>
+<a name ="startOfPage"></a>

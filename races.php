@@ -2,12 +2,7 @@
   include_once 'assets/header.php';
   include_once 'assets/navbar.php';
  ?>
-
- <!-- inceput de RACES Container -->
-</br>
-</br>
-</br>
-<a name ="lainceput"></a>
+<div style="padding:50px 16px"></div>
 <div class="glade-container news-article races opacity">
 
 
@@ -72,9 +67,9 @@ Choosing your character&rsquo;s race and class is one of the most special and sh
                        <span class="hover-overlay"></span>
                    </a>
 
-       </div><!-- .contents -->
+       </div>
 
-</div><!--Container-->
+</div>
 
 
 <?php
