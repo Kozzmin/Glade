@@ -12,70 +12,71 @@
 
 
             <div class="contents" id="top">
-                <h1>Exemplu de Game Overview</h1>
+                <h1>Exemplu de prezentare generală a jocului</h1>
 
                 <div class="separation-contents opacity">
 
-                 <!-- inceput de nav -->
+                 <!-- inceput de content -->
                     <div class="secondary-nav">
                         <p class="secondary-nav-top"></p>
                         <ul class="menu-list">
                            <ul class="menu-list glade-ul">
-                             <li>Game Overview</li>
-                             <li>Download and Installation</a>
+                             <li>Prezentare generală a jocului</li>
+                             <li>Descărcare și instalare</a>
                                <ul class="menu-list">
-                                 <li>Account Creation</li>
-                                 <li>Installation</li>
-                                 <li>System Requirements</li>
-                                 <li>Download Game</li>
+                                 <li>Crearea contului</li>
+                                 <li>Instalare</li>
+                                 <li>Cerințe de sistem</li>
+                                 <li>Descarcare joc</li>
                                </ul>
                              </li>
-                             <li>Getting Started
+                             <li>Noțiuni de bază
                                <ul class="menu-list">
-                                 <li>How to Play</li>
-                                 <li>Newbie Quest Guide</li>
+                                 <li>Cum se joacă</li>
+                                 <li>Ghid pentru incepatori</li>
 
-                                 <li>Getting Started</li>
+                                 <li>Hai sa incepem</li>
                                </ul>
                              </li>
                              <li>
-                               Patch Notes
+                               Note de patch-uri
                                <ul class="menu-list">
-                                 <li>Patch Notes Directory</li>
+                                 <li>Note de patch-uri Director</li>
                                </ul>
                              </li>
-                             <li>Races</a>
+                             <li>Rase</a>
                                <ul class="menu-list">
-                                 <li><a href="/game/races/"><span class="link-text">Races Index</span></a></li>
-                                 <li><a href="/game/races/elf.php"><span class="link-text">Elf</span></a></li>
-                                 <li><a href="/game/races/fairy.php"><span class="link-text">Fairy</span></a></li>
-                                 <li><a href="/game/races/troll.php"><span class="link-text">Troll</span></a></li>
+                                 <li><span class="link-text">Prezentare generală a raselor</span></li>
+                                 <li><span class="link-text">Elfi</span></li>
+                                 <li><span class="link-text">Za Ne</span></li>
+                                 <li><span class="link-text">Trolli</span></li>
                                </ul>
                              </li>
-                             <li><a href="/en/game/classes/"><span class="link-text">Classes</span><span class="indicator-closed">+</span><span class="indicator-opened inactive-indicator">-</span></a>
+                             <li><span class="link-text">Clase</span><span class="indicator-closed"></span><span class="indicator-opened inactive-indicator"></span>
                                <ul class="menu-list">
-                                 <li><a href="/en/game/classes/"><span class="link-text">Classes Index</span></a></li>
-                                 <li><a href="/en/game/classes/knight.php"><span class="link-text">Knight</span></a></li>
-                                 <li><a href="/en/game/classes/warrior.php"><span class="link-text">Warrior</span></a></li>
-                                 <li><a href="/en/game/classes/rogue.php"><span class="link-text">Rogue</span></a></li>
-                                 <li><a href="/en/game/classes/archer.php"><span class="link-text">Archer</span></a></li>
-                                 <li><a href="/en/game/classes/wizard.php"><span class="link-text">Wizard</span></a></li>
-                                 <li><a href="/en/game/classes/summoner.php"><span class="link-text">Summoner</span></a></li>
-                                 <li><a href="/en/game/classes/enchanter.php"><span class="link-text">Enchanter</span></a></li>
-                                 <li><a href="/en/game/classes/healer.php"><span class="link-text">Healer</span></a></li>
+                                 <li><span class="link-text">Prezentare generală a claselor</span></li>
+                                 <li><span class="link-text">Cavaler</span></li>
+                                 <li><span class="link-text">Războinic</span></li>
+                                 <li><span class="link-text">Necinstiț</span></li>
+                                 <li><span class="link-text">Arcas</span></li>
+                                 <li><span class="link-text">Vrăjitor</span></li>
+                                 <li><span class="link-text">Invocator</span></li>
+                                 <li><span class="link-text">Fermecator</span></li>
+                                 <li><span class="link-text">Vindecator</span></li>
                                </ul>
                              </li>
 
-                             <li><a href="/en/game/the-library/"><span class="link-text">The Library</span><span class="indicator-closed">+</span><span class="indicator-opened inactive-indicator">-</span></a>
-                               <ul class="menu-list">
-                                 <li><a href="/en/game/the-library/clans/"><span class="link-text">Clans</span></a></li>
-                                 <li><a href="/en/game/the-library/items/"><span class="link-text">Items</span></a></li>
-                                 <li><a href="/en/game/the-library/quests/"><span class="link-text">Quests</span></a></li>
-                                 <li><a href="/en/game/the-library/pvp-activities/"><span class="link-text">PvP Activities</span></a></li>
-                                 <li><a href="/en/game/the-library/instances/"><span class="link-text">Instances</span></a></li>
-                                 <li><a href="/en/game/the-library/game-systems/"><span class="link-text">Game Systems</span></a></li>
-                                 <li><a href="/en/game/the-library/promotions/"><span class="link-text">Promotions</span></a></li>
-                                 <li><a href="/en/game/the-library/"><span class="link-text">Library Overview</span></a></li>
+                             <li><span class="link-text">Biblioteca</span><span class="indicator-closed"></span><span class="indicator-opened inactive-indicator"></span></a>
+                               <ul class="menu-list">                                
+                                 <li><span class="link-text">Prezentare generală a bibliotecii</span></li>
+                                 <li><span class="link-text">Clanuri</span></li>
+                                 <li><span class="link-text">Obiecte</span></li>
+                                 <li><span class="link-text">Misiuni</span></li>
+                                 <li><span class="link-text">PvP Activitați</span></li>
+                                 <li><span class="link-text">Instanțe</span></li>
+                                 <li><span class="link-text">Sisteme de joc</span></li>
+                                 <li><span class="link-text">Promoții</span></li>
+
                                </ul>
                              </li>
                            </ul>
@@ -83,77 +84,78 @@
 
                         <ul class="promos glade-ul">
 
-                             <li><a href="" style="height: 119px;">Play Truly Free Now</a></li>
+                             <li><a href="" style="height: 119px;">Cu adevărat gratuit.</a></li>
 
                         </ul>
                     </div>
-                    <!-- nav -->
+                    <!-- content -->
 
 
                     <div class="contents-left">
 
                         <div class="article-p inner-container">
                             <h2>
-	<em>GLADE</em><em>&reg;</em><em>  &nbsp;</em>Has Evolved!</h2>
+	<em>Universul din poiana</em><em>&reg;</em><em>  &nbsp;</em>a Evoluat!</h2>
+
+  <h3>
+    Începeți ceva care contează, o călătorie prin ținuturile transformate ale universului din poiana
+     spre propriul vostru destin și izbaveste!</h3>
 <h3>
-	Journey through the transformed lands of <em>GLADE   </em>toward your own destiny and prevail.</h3>
-<h3>
-	The Awakening awaits!</h3>
+	Trezirea așteaptă!</h3>
 <p>
 	&nbsp;</p>
 <p>
 	<img alt="GameOverview-featured.jpg" class="mt-image-center" height="510" src="" width="680" /></p>
 <p>
-	<em>GLADE</em><em>&reg;</em><em>  </em> was revitalized with a variety of changes introduced with the
-   launch of&nbsp;<em>Goddess of Destruction</em><em>&trade; </em>back in 2012, including the&nbsp;
-   introduction of the <em>Truly Free&trade; </em>business model. &nbsp;</p>
+	<em>Universul din poiana</em><em>&reg;</em> a fost revitalizat cu o varietate de modificări introduse cu
+   lansarea&nbsp;primei expansiuni <em>Zeita Distrugerii</em><em>&trade; </em> in 2022, incluzand &nbsp;
+  introducerea modelului de afaceri &nbsp;<em>Cu adevărat gratuit.&trade; </em></p>
 <p>
-	<em>Truly Free</em> breaks the shackles of limited gameplay and invites you to enjoy the full
-   game world as it was meant to be experienced. <em>GLADE  : Goddess of Destruction</em>
-   will provide you with all the tools you need to propel yourself to the heights of power and beyond.
-    Follow the <a href="http://www.GLADE2.com/en/game/">Path to Awakening&trade;</a>
-     from the starting zone for new characters and experience rapid progression through three class transfers
-     on your way toward your destiny.
-  At level 85, Awaken to one of the 37 classes with unique skills to advance your game experience and take on new challenges.
+	<em>Cu adevărat gratuit</em> sparge cătușele jocului limitat și te invită să te bucuri din plin de
+   lumea jocului așa cum a fost menită să fie experimentată.<em>Universul din poiana <em>&reg;</em>   : Zeita Distrugerii</em>
+   vă va oferi toate instrumentele de care aveți nevoie pentru a vă propulsa pe culmile puterii și nu numai.
+     Urmează <a href="">Trezirea așteaptă!&trade;</a>
+     din zona de start pentru personaje noi și experimentați o progresie rapidă prin transferuri de trei clase
+     pe drumul către destinul tău.
+      La nivelul 85, trezește-te la una dintre cele 37 de clase cu abilități unice pentru a-ți avansa experiența de joc și a lua noi provocări.
   &nbsp;&nbsp;<br />
 	<br />
-	The world of <em>GLADE  </em> is a war-torn land spanning two continents,
-   where trust and betrayal clash as three kingdoms vie for power.
-    These kingdoms share a delicate balance of power; however,
-     within each kingdom they are vulnerable to internal strife,
-      as each manor has a strong desire for self-rule.
-       Players rule supreme in this brutal and beautiful world filled with magical beasts,
-        large-scale conflict, territories to conquer and rival clans to battle.
-         With a strong emphasis on <a href="/en/game/the-library/pvp-activities/index.php">PvP</a>,
-         you may find challenges around every corner in <em>GLADE  </em>,
-          but you have the means to protect yourself.
-           Develop your character and obtain the power to enforce your will upon the realm.
-            Seize your destiny and allow your own hand to write the history of this world!</p>
+	Lumea <em>Universul din poiana</em> <em>&reg;</em> 
+este un pământ distrus de război care se întinde pe două continente,
+   unde încrederea și trădarea se ciocnesc în timp ce trei regate luptă pentru putere.
+    Aceste regate împărtășesc un echilibru delicat al puterii; in orice caz,
+     în fiecare regat sunt vulnerabili la lupte interne,
+      întrucât fiecare conac are o dorință puternică de auto-guvernare.
+       Jucătorii guvernează suprem în această lume brutală și frumoasă plină de fiare magice,
+        conflict pe scară largă, teritorii de cucerit și clanuri rivale la luptă.
+         Cu un accent puternic pe <a href="">PvP</a>,
+         este posibil să găsiți provocări în fiecare colț din <em>Universul din poiana</em> <em>&reg;</em> , 
+          dar ai mijloacele de a te proteja.
+           Dezvoltă-ți caracterul și obține puterea de a-ți impune voința asupra tărâmului.
+            Profită de destinul tău și lasă-ți propria mână să scrie istoria acestei lumi!</p>
 <p>
-	<a href="/media/content-images/game/GameOverview-dragon.jpg">
-     <img alt="GameOverview-dragon.jpg" class="mt-image-left" height="247"
-      src="/media/content-images/game/thumbs/GameOverview-dragon-thumb-680x510-493.jpg" width="330" /></a>
-  <a href="/media/content-images/game/GameOverview-clanwar.jpg">
-    <img alt="GameOverview-clanwar.jpg" class="mt-image-right" height="247"
-    src="/media/content-images/game/thumbs/GameOverview-clanwar-thumb-680x510-492.jpg" width="330" /></a>
-  <a href="/en/assets_c/2011/11/GameOverview-clanwar-492.php" onclick="window.open('/en/assets_c/2011/11/GameOverview-clanwar-492.php', 'popup','width=680, height=510,scrollbars=no,resizable=no, toolbar=no,directories=no,location=no,menubar=no,status=no,left=0, top=0'); return false"> </a>
-  <a href="/en/assets_c/2011/11/GameOverview-dragon-493.php" onclick="window.open('/en/assets_c/2011/11/GameOverview-dragon-493.php', 'popup','width=680, height=510,scrollbars=no,resizable=no, toolbar=no,directories=no,location=no,menubar=no,status=no,left=0, top=0'); return false"> </a>
+	<a href="">
+     <img alt="GameOverview-dragon.jpg" class="" height="247"
+      src="" width="330" /></a>
+  <a href="">
+    <img alt="GameOverview-clanwar.jpg" class="" height="247"
+    src="" width="330" /></a>
 </p>
 
 <ul>
 	<li>
 		<p>
-			Choose your path by creating unique characters from seven different races:
+			Alege-ți calea creând personaje unice din trei rase diferite:
 
-        <a href="/en/game/races/elf.php">Elf</a>,
-        <a href="/en/game/races/fairy.php">Fairy</a>,
-         <a href="/en/game/races/troll.php">Troll</a>,
+        <a href="">Elfi</a>,
+        <a href="/en/game/races/fairy.php">Za Ne</a>,
+         <a href="/en/game/races/troll.php">Trolli</a>,
 
 	</li>
 </ul>
 <ul>
 	<li>
-		<p>
+		<p> <!--am ramas aici la traducere , azi  23.10.2020-->
 			Take part in colossal server-wide PvP siege warfare battles, defending your <a href="/en/game/the-library/pvp-activities/castle-sieges.php">castle</a> or <a href="/en/game/the-library/pvp-activities/fortress-sieges.php">fortress</a> whatever the cost.</p>
 	</li>
 </ul>

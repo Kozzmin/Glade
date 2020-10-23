@@ -42,7 +42,7 @@ include_once 'signup.php';
   <!-- containerul principal care contine toate butoanele -->
   <div class="glade-white glade-card glade-bar" id="myNavbar">
     <!--Home Button-->
-    <a href="index.php" class="glade-bar-item glade-button">GLADE</a>
+    <a href="index.php" class="glade-bar-item glade-button">Universul din poiana</a>
 
     <!--User Button-->
     <?php
@@ -66,11 +66,11 @@ include_once 'signup.php';
 
         if(isset($_SESSION['u_id'])){
           echo '<form action="includes/logout.inc.php" method="POST" class="glade-bar-item">
-                  <button type="submit" name="submit" class="glade-button">LOGOUT</button>
+                  <button type="submit" name="submit" class="glade-button">Deconectare</button>
                 </form>';
         } else {
-          echo '<button onclick="document.getElementById(\'loginModalForm\').style.display=\'block\'" class="glade-bar-item glade-button">LOGIN</button>
-                <button onclick="document.getElementById(\'signupModalForm\').style.display=\'block\'" class="glade-bar-item glade-button">SIGN UP</button>';
+          echo '<button onclick="document.getElementById(\'loginModalForm\').style.display=\'block\'" class="glade-bar-item glade-button">Conectare</button>
+                <button onclick="document.getElementById(\'signupModalForm\').style.display=\'block\'" class="glade-bar-item glade-button">Inregistrare</button>';
               }
       ?>
     </div>
@@ -82,24 +82,30 @@ include_once 'signup.php';
 
 <div class="glade-bar-item">
   <div>
+    <!--<button class="glade-button toggle-btn">
+      <i class="fas fa-bars"></i>MENU
+    </button>-->
 
-    <button class="glade-button dropbtn" onclick="myFunction()">GAME
+
+    <button class="glade-button dropbtn" onclick="myFunction()">Joc
     <i class="fa fa-caret-down"></i></button>
 
+
     <div class="glade-dropdown-content" id="myDropdown">
-      <a href="overview.php">OVERVIEW</a>
-      <a href="races.php">RACES</a>
-      <a href="classes.php">CLASSES</a>
+      <a href="overview.php">General</a>
+      <a href="races.php">Race</a>
+      <a href="classes.php">Clase</a>
     </div>
 
   </div>
 </div>
 
 
-      <a href="aboutcompany.php" class="glade-button glade-bar-item">ABOUT</a>
-      <a href="team.php" class="glade-button glade-bar-item">TEAM</a>
-      <a href="work.php" class="glade-button glade-bar-item"><i class="fa fa-th"></i>WORK</a>
-      <a href="contact.php" class="glade-button glade-bar-item"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="aboutcompany.php" class="glade-button glade-bar-item">Despre</a>
+
+      <a href="team.php" class="glade-button glade-bar-item">Echipa</a>
+      <a href="work.php" class="glade-button glade-bar-item"><i class="fa fa-th"></i>Proiecte</a>
+      <a href="contact.php" class="glade-button glade-bar-item"><i class="fa fa-envelope"></i>Contact</a>
 
     </div>
     <?php
@@ -116,8 +122,16 @@ include_once 'signup.php';
       }
     }
 ?>
-
+<div class="sidebar-wrapper">
+  <aside class="sidebar">
+    <button class="close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="sidebar-links"></div>
+    <!-- links -->
+  </aside>
+</div>
+<script language='JavaScript' type='text/javascript' type="module" src="app.js"></script>
 
 </div>
 </div>
-<a name ="startOfPage"></a>

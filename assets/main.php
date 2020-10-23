@@ -4,21 +4,23 @@
 
 
 <header class="bgimg-1 glade-display-container glade-grayscale-min" id="home">
-  <div class="glade-display-left glade-text-green" style="padding:48px"> <!-- Example of inline CSS-->
-    </br>
-    </br>
-    </br>
-    <span class="glade-hide-small"></br>“Start something that matters</br>-Journey through the transformed lands of Glade</br> toward your own destiny and prevail!”</span><br>
-    <span class="glade-xxlarge glade-hide-large glade-hide-medium">Start something that matters</span><br>
+  <div class="glade-display-right glade-text-black" style="padding:30px">
+  <h4><span class="glade-hide-small">
+    Începeți ceva care contează</br>O călătorie prin ținuturile </br>transformate ale universului din poiana</br>
+     spre propriul vostru destin și izbaveste!</span><br></h4>
+  </div>
+  <div class="glade-display-left glade-text-black" style="padding:48px">
   </br>
-  </br>
-    <span class="glade-large"></br>Stop wasting valuable time </br>with projects that just isn't you.</span></br>
-    <span class="glade-large"> The project is a website that presents the idea for a </br>
-      MMORPG world and
-    </br> . opens it up
-      to public comments and contributions.
+  </br></br></br>
+    <span class="glade-large"></br>
+    Nu mai pierde timp prețios</br>
+    cu proiecte care pur și simplu nu ești tu.</span></br></br>
+    <span class="glade-large">
+    Proiectul este un site web care prezintă ideea pentru o </br>
+    lume MMORPG si  este deschisa la comentarii </br>
+    și contribuții publice.
    </br> .</span></br>
-    <p><a href="aboutcompany.php" class="glade-button glade-white glade-padding-large glade-large glade-margin-top glade-opacity glade-hover-opacity-off">Learn more and start today</a></p>
+    <p><a href="aboutcompany.php" class="glade-button glade-white glade-padding-large glade-large glade-margin-top glade-opacity glade-hover-opacity-off">Aflați mai multe și începeți astăzi</a></p>
   </div>
   <div class="glade-display-bottomleft glade-text-grey glade-large" style="padding:24px 48px">
     <a href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official glade-hover-opacity"></i></a>
