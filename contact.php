@@ -5,20 +5,21 @@
 
 
 <div class="glade-container glade-light-grey opacity" style="padding:128px 16px" id="contact">
-  <h3 class="glade-center">CONTACT</h3>
-  <p class="glade-center glade-large">Lets get in touch. Send us a message:</p>
+  <h1 class="glade-center">CONTACT</h1>
+  <p class="glade-center glade-large">Să luăm legătura. Trimite-ne un mesaj:</p>
   <div class="glade-row-padding" style="margin-top:64px">
     <div class="glade-half">
-      <p><i class="fa fa-map-marker fa-fw glade-xxlarge glade-margin-right"></i> Bucharest, RO</p>
-      <p><i class="fa fa-phone fa-fw glade-xxlarge glade-margin-right"></i> Phone: +40 724746802</p>
-      <p><i class="fa fa-envelope fa-fw glade-xxlarge glade-margin-right"> </i> Email: sandorgabrielcosmim@yahoo.com</p>
+      <p><i class="fa fa-map-marker fa-fw glade-xxlarge glade-margin-right"></i> Bucuresti, RO</p>
+      <p><i class="fa fa-phone fa-fw glade-xxlarge glade-margin-right"></i> Telefon: +40 724746802</p>
+      <p><i class="fa fa-envelope fa-fw glade-xxlarge glade-margin-right"> </i> E-mail: sandorgabrielcosmim@yahoo.com</p>
       <br>
-
+<!--de modificat numele din formulare, pus poza cu locatia 
+poza cu locatia lui Adrian mecanicul si cautat cum facem un server de e-mail 28.10.2020-->
       <form action="includes/email.inc.php" target="_blank" method="POST">
-        <p><input class="glade-input glade-border" type="text" placeholder="Name" required name="Name"/></p>
-        <p><input class="glade-input glade-border" type="text" placeholder="Email" required name="Email"/></p>
-        <p><input class="glade-input glade-border" type="text" placeholder="Subject" required name="Subject"/></p>
-        <p><textarea class="glade-input glade-border" placeholder="Message" required name="Message"></textarea></p>
+        <p><input class="glade-input glade-border" type="text" placeholder="Name" required name="Nume"/></p>
+        <p><input class="glade-input glade-border" type="text" placeholder="Email" required name="E-mail"/></p>
+        <p><input class="glade-input glade-border" type="text" placeholder="Subject" required name="Subiect"/></p>
+        <p><textarea class="glade-input glade-border" placeholder="Message" required name="Mesaj"></textarea></p>
 
         <p>
           <button class="glade-button glade-green" type="submit" name="contactEmail">

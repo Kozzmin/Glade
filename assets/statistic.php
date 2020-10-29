@@ -3,28 +3,28 @@
   <div class="glade-quarter">
 
     <span class="glade-xxlarge">14+</span>
-    <br>Partners
+    <br>Parteneri
 
   </div>
 
   <div class="glade-quarter">
 
     <span class="glade-xxlarge">55+</span>
-    <br>Projects Done
+    <br>Proiecte Finalizate
 
   </div>
 
   <div class="glade-quarter">
 
     <span class="glade-xxlarge">89+</span>
-    <br>Happy Clients
+    <br>Clienți fericiți
 
   </div>
 
   <div class="glade-quarter">
 
     <span class="glade-xxlarge">150+</span>
-    <br>Meetings
+    <br>Întâlniri
 
   </div>
   

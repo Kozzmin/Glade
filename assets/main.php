@@ -7,7 +7,7 @@
   <div class="glade-display-right glade-text-black" style="padding:30px">
   <h4><span class="glade-hide-small">
     Începeți ceva care contează</br>O călătorie prin ținuturile </br>transformate ale universului din poiana</br>
-     spre propriul vostru destin și izbaveste!</span><br></h4>
+    spre propriul vostru destin și izbaveste!</span><br></h4>
   </div>
   <div class="glade-display-left glade-text-black" style="padding:48px">
   </br>
@@ -19,7 +19,7 @@
     Proiectul este un site web care prezintă ideea pentru o </br>
     lume MMORPG si  este deschisa la comentarii </br>
     și contribuții publice.
-   </br> .</span></br>
+  </br> .</span></br>
     <p><a href="aboutcompany.php" class="glade-button glade-white glade-padding-large glade-large glade-margin-top glade-opacity glade-hover-opacity-off">Aflați mai multe și începeți astăzi</a></p>
   </div>
   <div class="glade-display-bottomleft glade-text-grey glade-large" style="padding:24px 48px">
