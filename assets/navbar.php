@@ -31,8 +31,6 @@ include_once 'signup.php';
       }
     }
 
-    /* When the user clicks on the button,
-    toggle between hiding and showing the dropdown content */
     function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
     }
@@ -76,7 +74,7 @@ include_once 'signup.php';
     </div>
 
 
-      <!-- Right-sided navbar links ------------------------------------------------------------->
+      <!-- Right-sided navbar links ------------>
       <div class="glade-right">
 
 

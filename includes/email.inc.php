@@ -1,56 +1,26 @@
 <?php
-//if "email" variable is filled out, send email
-  if (isset($_REQUEST['email']))  {
 
-  //Email information
-  $admin_email = "someone@example.com";
-  $email = $_REQUEST['email'];
-  $subject = $_REQUEST['subject'];
-  $comment = $_REQUEST['comment'];
+if(isset($_POST['contactEmail'])){  //if "contactEmail" variable is filled out, send email
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    //de facut validare daca message are continut daca nu respingem 04.11.2020
 
-  //send email
-  mail($admin_email, "$subject", $comment, "From:" . $email);
+    $to = "root@localhost";
+    $headers =  'MIME-Version: 1.0' . "\r\n"; 
+    $headers .= "From:$name  <$email>" . "\r\n" . "";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-  //Email response
-  echo "Thank you for contacting us!";
+  if (mail($to, $subject, $message, $headers)){
+      echo "The mail has been sent!";
+      header("Location: ../contact.php?mail=success");
+  } else {
+      echo "The mail has failed!";
+      header("Location: ../contact.php?mail=success");
   }
-
-  //if "email" variable is not filled out, display the form
-  else  {
-?>
-
- <form method="post">
-
-  Email: <input name="email" type="text" />
-
-  Subject: <input name="subject" type="text" />
-
-  Message:
-
-  <textarea name="comment" rows="15" cols="40"></textarea>
-
-  <input type="submit" value="Submit" />
-  </form>
-
-<?php
-  }
-
-
-/*
-if(isset($_POST['contactEmail'])){
-    $to = "sandorgabrielcosmim@yahoo.com";
-    $subject = $_POST['Subject'];
-    $name = $_POST['Name'];
-    $email = $_POST['Email'];
-    $headers = "From: $email" . "\r\n" . " Name: $name";
-    $message = $_POST['Message'];
-    header("Location: ../contact.php");
-
-    //trebuie configurat server de  email;
-    mail($to, $subject, $message, $headers);
 }
-*/
-
-
-
+else {
+  echo "The form has failed!";
+}
 ?>
