@@ -1,8 +1,7 @@
 
-<!-- Footer ------------------------------------------------------------------------------------------------------------------->
 <footer class="glade-center glade-black glade-padding-64">
 
-  <a href="#startOfPage" class="glade-button glade-light-grey">
+  <a href="#startOfPage" class="glade-button">
     <i class="fa fa-arrow-up glade-margin-right"></i>
     De la inceput
   </a>
@@ -16,14 +15,12 @@
     <i class="fa fa-linkedin glade-hover-opacity"></i>
   </div>
 
-  <div class="glade-light-grey glade-button">
+  <div class="glade-button">
   <a href="https://www.facebook.com/kozzmin.gani" target="_blank"><p>&copy;Gabriel Cosmin Sandor</p></a>
   </div>
   
 
 </footer>
-
-
 
   </body>
 </html>

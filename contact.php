@@ -3,7 +3,6 @@
   include_once 'assets/navbar.php';
 ?>
 
-
 <div class="glade-container glade-light-grey opacity" style="padding:128px 16px" id="contact">
 
   <h1 class="glade-center">CONTACT</h1>
@@ -13,10 +12,12 @@
     <div class="glade-half">
       <p><i class="fa fa-map-marker fa-fw glade-xxlarge glade-margin-right"></i> Bucuresti, RO</p>
       <p><i class="fa fa-phone fa-fw glade-xxlarge glade-margin-right"></i> Telefon: +40 724746802</p>
-      <p><i class="fa fa-envelope fa-fw glade-xxlarge glade-margin-right"> </i> E-mail: emailfirma@yahoo.com</p>
+      <p><i class="fa fa-envelope fa-fw glade-xxlarge glade-margin-right"> </i> E-mail: contact@universuldinpoiana.ro</p>
       <br>
-
-      <form action="includes/email.inc.php" target="_blank" method="POST">
+<?php 
+  include_once 'assets/errorhandler.php';                                                
+?>
+      <form action="includes/email.inc.php" method="POST">
         <p>
           <input type="text" name="name" placeholder="Nume" class="glade-input glade-border" autofocus required/>
         </p>
@@ -27,12 +28,11 @@
           <input type="text" name="subject" placeholder="Subiect" class="glade-input glade-border" required/>
         </p>
         <p>
-          <textarea name="message" cols="5" rows="4" style="resize:none;" maxlength=350 class="glade-input glade-border" placeholder="Mesaj">
-          </textarea>
+          <textarea name="message" cols="5" rows="4" style="resize:none;" maxlength=350 class="glade-input glade-border" placeholder="Mesaj" required></textarea>
         </p>
 
         <p>
-          <button class="glade-button glade-green" type="submit" name="contactEmail" required>
+          <button class="glade-button glade-green" type="submit" name="contactEmail">
             <i class="fa fa-paper-plane"> TRIMITE MESAJ</i> 
           </button>
         </p>

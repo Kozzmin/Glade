@@ -17,10 +17,10 @@
 
         <div class="glade-container">
           <h3>Gabriel Șandor</h3>
-          <p class="glade-opacity">Team leader, designer</p>
+          <p class="glade-opacity">Team leader, game designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           
-          <p><a href="https://www.facebook.com/kozzmin.gani" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i>Contact</button></a></p>
+          <p><a href="https://www.facebook.com/kozzmin.gani" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
         </div>
 
       </div>
@@ -36,7 +36,7 @@
           <p class="glade-opacity">Senior web developer, artist</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           
-          <p><a href="https://www.facebook.com/ovidiu.cimpoca.1" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i>Contact</button></a></p>
+          <p><a href="https://www.facebook.com/ovidiu.cimpoca.1" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
         </div>
 
       </div>
@@ -49,10 +49,10 @@
 
         <div class="glade-container">
           <h3>David Cimpoca</h3>
-          <p class="glade-opacity">Artist, story designer</p>
+          <p class="glade-opacity">Senior artist, story designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           
-          <p><a href="https://www.facebook.com/cimpoca.david" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i>Contact</button></a></p>
+          <p><a href="https://www.facebook.com/cimpoca.david" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
         </div>
 
       </div>
@@ -65,19 +65,25 @@
 
         <div class="glade-container">
           <h3>Dan Zbranca</h3>
-          <p class="glade-opacity">Game tester, story designer</p>
+          <p class="glade-opacity">Game tester, story teller</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           
-          <p><a href="https://www.facebook.com/profile.php?id=100010273027745" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i>Contact</button></a></p>
+          <p><a href="https://www.facebook.com/profile.php?id=100010273027745" style="text-decoration: none" target="_blank"><button class="glade-button glade-light-grey glade-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
         </div>
 
       </div>
     </div>
+
+  <?php
+  include_once 'assets/skill.php';
+  ?>
 
   </div>
 
 </div>
 
 <?php
+  include_once 'assets/skill.php';
+
   include_once 'assets/footer.php';
 ?>

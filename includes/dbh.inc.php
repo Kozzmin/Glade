@@ -5,8 +5,8 @@ $dbPassword="";
 $dbName="loginsystemmain";
 
 
- $conn= mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
+  $conn= mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
 
- if(!$conn){
-   die("Connection failed: " . mysqli_connect_error());
- }
+  if(!$conn){
+    die("Connection failed: " . mysqli_connect_error());
+  }

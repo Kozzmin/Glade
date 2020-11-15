@@ -7,7 +7,6 @@
       <div class="container">
           <h1  style="text-align:center">Inscrie-te</h1>
           <h4 style="text-align:center">Vă rugăm să completați acest formular pentru a vă crea un cont</h4>
-          <hr>
 
           <input type="text" placeholder="Nume" name="first" required>
           <input type="text" placeholder="Prename" name="last" required>

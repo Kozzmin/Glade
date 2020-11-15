@@ -20,5 +20,5 @@ echo "<form action='".setComments($conn, $currentPage)."' method='POST' class='c
 }
 
 
-   getComments($conn, $currentPage);
+  getComments($conn, $currentPage);
 ?>

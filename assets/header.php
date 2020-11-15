@@ -13,14 +13,14 @@
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
       <link rel="icon" href="resurse/favicon.ico" type="image/x-icon">
 
-      <link rel="stylesheet" href="resurse/glade.css">
+      <link rel="stylesheet" href="resurse/css/glade.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       />
 
-
+      <script src="jsAssets/app.js" async></script>
       </head>
 
   <body>

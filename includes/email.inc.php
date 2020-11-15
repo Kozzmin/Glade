@@ -1,12 +1,12 @@
 <?php
 
-if(isset($_POST['contactEmail'])){  //if "contactEmail" variable is filled out, send email
+if(isset($_POST['contactEmail'])){                                            //if "contactEmail" variable is filled out, send email
     $name = $_POST['name'];
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
-    //de facut validare daca message are continut daca nu respingem 04.11.2020
-
+   
+    
     $to = "root@localhost";
     $headers =  'MIME-Version: 1.0' . "\r\n"; 
     $headers .= "From:$name  <$email>" . "\r\n" . "";
@@ -17,7 +17,7 @@ if(isset($_POST['contactEmail'])){  //if "contactEmail" variable is filled out, 
       header("Location: ../contact.php?mail=success");
   } else {
       echo "The mail has failed!";
-      header("Location: ../contact.php?mail=success");
+      header("Location: ../contact.php?mail=failed");
   }
 }
 else {

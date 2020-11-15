@@ -45,7 +45,7 @@ include_once 'includes/dbh.inc.php';
         else {
           echo '<input type="text" name="last" placeholder="Lastname"/></br>';
         }
-       ?>
+      ?>
 
       <input type="text" name="email" placeholder="E-mail"/></br>
 
@@ -58,7 +58,7 @@ include_once 'includes/dbh.inc.php';
         echo '<input type="text" name="uid" placeholder="Username"/></br>';
       }
 
-       ?>
+      ?>
       <input type="password" name="pwd" placeholder="Password"/></br>
 
       <button type="submit" name="submit">Sign up</button></br>
@@ -67,7 +67,7 @@ include_once 'includes/dbh.inc.php';
     <?php
 
 
-//////////////////second method of error  handleing
+//////////////////second method of error  handling
       if(!isset($_GET['signup'])){
           exit();
       }

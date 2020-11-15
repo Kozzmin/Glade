@@ -1,11 +1,11 @@
 <?php
   include_once 'assets/header.php';
   include_once 'assets/navbar.php';
- ?>
- <!-- inceput de OVERVIEW Container -->
- <div style="padding:50px 16px">
+?>
+<!-- inceput de OVERVIEW Container -->
+<div style="padding:50px 16px">
 
- </div>
+</div>
     <div class="glade-container news-article game-overview">
 
 
