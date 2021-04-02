@@ -6,95 +6,88 @@
 <div style="padding:50px 16px">
 
 </div>
-    <div class="glade-container news-article game-overview">
+  <div class="glade-container game-overview">
+    <div class="contents" id="top">
+      <h1>Exemplu de prezentare generală a jocului</h1>
 
+      <div class="separation-contents bgimg-1-opacity">
+        <div class="secondary-nav">
+          <p class="secondary-nav-top"></p>
+          <ul class="menu-list">
+            <ul class="menu-list glade-ul">
+              <li>Prezentare generală a jocului</li>
+              <li>Descărcare și instalare</a>
+                <ul class="menu-list">
+                  <li>Crearea contului</li>
+                  <li>Instalare</li>
+                  <li>Cerințe de sistem</li>
+                  <li>Descarcare joc</li>
+                </ul>
+              </li>
+              <li>Noțiuni de bază
+                <ul class="menu-list">
+                  <li>Cum se joacă</li>
+                  <li>Ghid pentru incepatori</li>
 
+                  <li>Hai sa incepem</li>
+                </ul>
+              </li>
+              <li>
+                Note de patch-uri
+                <ul class="menu-list">
+                  <li>Note de patch-uri Director</li>
+                </ul>
+              </li>
+              <li>Rase</a>
+                <ul class="menu-list">
+                  <li><span class="link-text">Prezentare generală a raselor</span></li>
+                  <li><span class="link-text">Elfi</span></li>
+                  <li><span class="link-text">Za Ne</span></li>
+                  <li><span class="link-text">Trolli</span></li>
+                </ul>
+              </li>
+              <li><span class="link-text">Clase</span><span class="indicator-closed"></span><span class="indicator-opened inactive-indicator"></span>
+                <ul class="menu-list">
+                  <li><span class="link-text">Prezentare generală a claselor</span></li>
+                  <li><span class="link-text">Cavaler</span></li>
+                  <li><span class="link-text">Războinic</span></li>
+                  <li><span class="link-text">Necinstiț</span></li>
+                  <li><span class="link-text">Arcas</span></li>
+                  <li><span class="link-text">Vrăjitor</span></li>
+                  <li><span class="link-text">Invocator</span></li>
+                  <li><span class="link-text">Fermecator</span></li>
+                  <li><span class="link-text">Vindecator</span></li>
+                </ul>
+              </li>
+              <li><span class="link-text">Biblioteca</span><span class="indicator-closed"></span><span class="indicator-opened inactive-indicator"></span></a>
+                <ul class="menu-list">
+                  <li><span class="link-text">Prezentare generală a bibliotecii</span></li>
+                  <li><span class="link-text">Clanuri</span></li>
+                  <li><span class="link-text">Obiecte</span></li>
+                  <li><span class="link-text">Misiuni</span></li>
+                  <li><span class="link-text">PvP Activitați</span></li>
+                  <li><span class="link-text">Instanțe</span></li>
+                  <li><span class="link-text">Sisteme de joc</span></li>
+                  <li><span class="link-text">Promoții</span></li>
 
+              </ul>
+              </li>
+            </ul>
+            </ul>
 
-            <div class="contents" id="top">
-                <h1>Exemplu de prezentare generală a jocului</h1>
+            <ul class="promos glade-ul">
 
-                <div class="separation-contents opacity">
+                <li><a href="" style="height: 119px;">Cu adevărat gratuit.</a></li>
 
-                <!-- inceput de content -->
-                    <div class="secondary-nav">
-                        <p class="secondary-nav-top"></p>
-                        <ul class="menu-list">
-                          <ul class="menu-list glade-ul">
-                            <li>Prezentare generală a jocului</li>
-                            <li>Descărcare și instalare</a>
-                              <ul class="menu-list">
-                                <li>Crearea contului</li>
-                                <li>Instalare</li>
-                                <li>Cerințe de sistem</li>
-                                <li>Descarcare joc</li>
-                              </ul>
-                            </li>
-                            <li>Noțiuni de bază
-                              <ul class="menu-list">
-                                <li>Cum se joacă</li>
-                                <li>Ghid pentru incepatori</li>
-
-                                <li>Hai sa incepem</li>
-                              </ul>
-                            </li>
-                            <li>
-                              Note de patch-uri
-                              <ul class="menu-list">
-                                <li>Note de patch-uri Director</li>
-                              </ul>
-                            </li>
-                            <li>Rase</a>
-                              <ul class="menu-list">
-                                <li><span class="link-text">Prezentare generală a raselor</span></li>
-                                <li><span class="link-text">Elfi</span></li>
-                                <li><span class="link-text">Za Ne</span></li>
-                                <li><span class="link-text">Trolli</span></li>
-                              </ul>
-                            </li>
-                            <li><span class="link-text">Clase</span><span class="indicator-closed"></span><span class="indicator-opened inactive-indicator"></span>
-                              <ul class="menu-list">
-                                <li><span class="link-text">Prezentare generală a claselor</span></li>
-                                <li><span class="link-text">Cavaler</span></li>
-                                <li><span class="link-text">Războinic</span></li>
-                                <li><span class="link-text">Necinstiț</span></li>
-                                <li><span class="link-text">Arcas</span></li>
-                                <li><span class="link-text">Vrăjitor</span></li>
-                                <li><span class="link-text">Invocator</span></li>
-                                <li><span class="link-text">Fermecator</span></li>
-                                <li><span class="link-text">Vindecator</span></li>
-                              </ul>
-                            </li>
-
-                            <li><span class="link-text">Biblioteca</span><span class="indicator-closed"></span><span class="indicator-opened inactive-indicator"></span></a>
-                              <ul class="menu-list">
-                                <li><span class="link-text">Prezentare generală a bibliotecii</span></li>
-                                <li><span class="link-text">Clanuri</span></li>
-                                <li><span class="link-text">Obiecte</span></li>
-                                <li><span class="link-text">Misiuni</span></li>
-                                <li><span class="link-text">PvP Activitați</span></li>
-                                <li><span class="link-text">Instanțe</span></li>
-                                <li><span class="link-text">Sisteme de joc</span></li>
-                                <li><span class="link-text">Promoții</span></li>
-
-                              </ul>
-                            </li>
-                          </ul>
-                          </ul>
-
-                        <ul class="promos glade-ul">
-
-                            <li><a href="" style="height: 119px;">Cu adevărat gratuit.</a></li>
-
-                        </ul>
-                    </div>
+            </ul>
+        </div>
                     <!-- content -->
 
 
-                    <div class="contents-left">
+      <div class="contents-left">
 
-                        <div class="article-p inner-container">
-                            <h2>
+          <div class="article-p inner-container">
+              <h2>
 	<em>Universul din poiana</em><em>&reg;</em><em>  &nbsp;</em>a Evoluat!</h2>
 
   <h3>
@@ -105,7 +98,7 @@
 <p>
 	&nbsp;</p>
 <p>
-	<img alt="GameOverview-featured.jpg" class="mt-image-center" height="510" src="" width="680" /></p>
+	<img alt="GameOverview-featured.jpg" class="mt-image-center"/></p>
 <p>
 	<em>
     Universul din poiana</em><em>&reg;</em> a fost revitalizat cu o varietate de modificări introduse cu
@@ -206,9 +199,60 @@
     </div>
     <!-- Container -->
 
+<section class="glade-light-grey extraSpace container-xx-grid">
+  
+  <div class="glade-row-padding">
+    <div class="glade-col m6"> 
+      <h3>Cunoastem designul.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+      <p><a href="work.php" class="glade-button glade-black"><i class="fa fa-th">&nbsp;</i>Lucrarile noastre</a></p>
+    </div>
+    <div class="glade-col m6 ">
+      <img class="glade-image glade-round-large" id="imgPromo" src="resurse/photos/characters/elfMaleafterSunder.jpg" alt="Elf male after Sunder">
+      <div id="myPromoModal" class="modalPromo">
+        <span class="closePromo">&times;</span>
+        <img class="modalPromo-content" id="img01">
+        <div id="captionPromo"></div>
+      </div>
+    </div>
+  </div>
 
+
+  <div class="glade-row-padding">
+    <div class="glade-col m6">
+      <h3>Cunoastem gameplay.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+      <p><a href="work.php" class="glade-button glade-black"><i class="fa fa-th">&nbsp;</i>Lucrarile noastre</a></p>
+    </div>
+    <div class="glade-col m6">
+      <img class="glade-image glade-round-large" id="imgPromo" src="resurse/photos/characters/trollMaleafterSunder.jpg" alt="Troll male after sunder">
+      <div id="myPromoModal" class="modalPromo">
+        <span class="closePromo">&times;</span>
+        <img class="modalPromo-content" id="img02">
+        <div id="captionPromo"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="glade-row-padding">
+    <div class="glade-col m6">
+      <h3>Cunoastem natura.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+      <p><a href="work.php" class="glade-button glade-black"><i class="fa fa-th">&nbsp;</i>Lucrarile noastre</a></p>
+    </div>
+    <div class="glade-col m6">
+      <img class="glade-image glade-round-large" id="imgPromo" src="resurse/photos/characters/zaneMaleafterSunder.jpg" alt="Za Ne male after sunder">
+      <div id="myPromoModal" class="modalPromo">
+        <span class="closePromo">&times;</span>
+        <img class="modalPromo-content" id="img03">
+        <div id="captionPromo"></div>
+      </div>
+    </div>
+  </div>
+
+</section>
 
   <?php
-    include_once 'assets/commentSection.php';
+    //include_once 'assets/account/commentSection.php';
     include_once 'assets/footer.php';
   ?>

@@ -1,58 +1,94 @@
+
 <?php
-include_once 'login.php';
-include_once 'signup.php';
+  include_once 'account/login.php';
+  include_once 'account/signup.php';
 ?>
 
-<div class="glade-top">
-  <div class="glade-white glade-card glade-bar">                        <!--Navbar-->
-    <a href="index.php" class="glade-bar-item glade-button"><i class="fa fa-tree"></i> Universul din poiana</a>  <!--Logo-->
+<nav id="navbar">
+  <button class="containerBars glade-card" onclick="openNav()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </button>
     
-    <?php  
-    include_once 'userAccount.php';                                                     //Username
-    ?>
+  <div id="navOverlay" class="overlay" >
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-      <!--////////////////////////////de facut search-ul sa se activeze din iconita LUPA 12.11.2020 -->
-    <div class="glade-bar-item">                                                       <!--Searchbar-->
-          
-      <form action="../resurse/search.php" class="">
-      <!--<input type="text" placeholder="Cauta in site.." name="search" class="glade-button">-->
-      </form>
-
-      <!--<button type="submit" class="glade-button" id="myButton" name="searchSubmit"><i class="fa fa-search"></i></button>-->
-      <p type="submit" class="glade-button" name="paragrafSearch" style="margin:0;" onclick="something()"><i class="fa fa-search"></i></p>
-    </div>
-    
-    <div class="glade-bar-item">                                                       <!--Logout button-->
-      <?php    
-      include_once 'disconnectAccount.php';                                                                        
-      ?>
-    </div>
+    <div class="overlay-content">
       
-      <div class="glade-right">                                                        <!-- Right-sided navbar links -->
-      
-        <div class="glade-bar-item">                                                   <!--Joc-->
-          <div>
-            <button class="glade-button dropbtn" onclick="myFunction()"><i class="fa fa-gamepad"></i> Joc
-            <i class="fa fa-caret-down"></i></button>
-              <div class="glade-dropdown-content" id="myDropdown">
-                <a href="overview.php">General</a>
-                <a href="races.php">Rase</a>
-                <a href="classes.php">Clase</a>
-              </div>
-          </div>
-        </div>
-
-        <div class="glade-bar-item">                                                   <!--About container-->
-          <a href="aboutcompany.php" class="glade-button"><i class="fa fa-connectdevelop"></i> Despre</a>
-          <a href="team.php" class="glade-button"><i class="fa fa-users"></i> Echipa</a>
-          <a href="work.php" class="glade-button"><i class="fa fa-th"></i> Proiecte</a>
-          <a href="contact.php" class="glade-button"><i class="fa fa-envelope"></i> Contact</a>
-        </div>
+      <button class="navbtn" onclick="openSubnav(event, 'poiana')"><i class="fa fa-pagelines"></i> Poiana <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content glade-card" id="poiana">
+        <a href="index.php" class="glade-button"><i class="fa fa-home"></i> Index</a>
+        <a onclick= openLoginModal() class="glade-button"><i class="fa fa-sign-in"></i> Conectare</a>
+        <a onclick= openSignupModal() class="glade-button"><i class="fa fa-th"></i> Inregistrare</a>
+        <a href="disconnectAccount.php" class="glade-button"><i class="fa fa-sign-out"></i> Deconectare</a><?php    //Logout button//include_once 'account/disconnectAccount.php';?>
+        <a href="userAccount.php" class="glade-button"><i class="fa fa-user"></i> Contul</a><?php  //Username//include_once 'account/userAccount.php';?>
       </div>
 
+      <button class="navbtn" onclick="openSubnav(event, 'despre')"><i class="fa fa-connectdevelop"></i> Despre <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content glade-card" id="despre">
+        <a href="aboutcompany.php" class="glade-button"><i class="fa fa-home"></i> Companie</a>
+        <a href="team.php" class="glade-button"><i class="fa fa-users"></i> Echipa</a>
+        <a href="work.php" class="glade-button"><i class="fa fa-th"></i> Proiecte</a>
+        <a href="contact.php" class="glade-button"><i class="fa fa-envelope"></i> Contact</a>
+      </div>
 
-      <!--de umblat aici 14.11.2020-->
-        <?php
+      <button class="navbtn" onclick="openSubnav(event, 'joc')"><i class="fa fa-gamepad"></i> Joc <i class="fa fa-caret-down"></i></button> <!--de facut clasa separat pentru containerul "joc" pentru a alinia spre dreapta butoanele.Sub-butoanele arata si se comporta ca butoanele principale-->
+      <div class="subnav-content glade-card" id="joc">
+        <a href="overview.php" class="glade-button">Informatii generale</a>
+
+        <button onclick="openSubnavGame(event, 'rase')" class="subnav-link"><i class="fa fa-gamepad"></i> Rase <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-game glade-card" id="rase">
+            <a href="races.php" class="glade-button">Informatii rase</a>
+            <a href="rasaElf.php" class="glade-button"><i class=""></i> Rasa Elf</a>
+            <a href="rasaZaNe.php" class="glade-button"><i class=""></i> Rasa Za Ne</a>  
+            <a href="rasaTrolli.php" class="glade-button"><i class=""></i> Rasa Trolli</a> 
+          </div>
+
+        <button onclick="openSubnavRace(event, 'clase')" class="subnav-link"><i class="fa fa-gamepad"></i> Clase <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-game glade-card" id="clase">
+            <a href="classCavaler.php" class="glade-button"><i class=""></i> Cavaler</a>
+            <a href="classRazboinic.php" class="glade-button"><i class=""></i> Războinic</a>
+            <a href="classNecinstit.php" class="glade-button"><i class=""></i> Necinstit</a>
+            <a href="classArcas.php" class="glade-button"><i class=""></i> Arcaş</a>
+            <a href="classVrajitor.php" class="glade-button"><i class=""></i> Vrăjitor</a>
+            <a href="classInvocator.php" class="glade-button"><i class=""></i> Invocator</a>
+            <a href="classFermecator.php" class="glade-button"><i class=""></i> Fermecator</a>
+            <a href="classVindecator.php" class="glade-button"><i class=""></i> Vindecător</a>
+        </div>
+        <a href="classes.php" class="glade-button"><i class=""></i> Informatii clase</a> 
+        <a href="#" class="glade-button">The Blooming Glade</a> <!--de facut link la alta pagina de net "www.thebloomingGlade.com sau .ro-->
+        <button class="subnav-link"><i class="fa fa-search"></i> Cauta in web site:  </button>
+        <!--<form action="../resurse/search.php" class="">
+              <input type="text" placeholder="Cauta in site.." name="search" class="">
+            </form>
+            <button type="submit" class="" id="myButton" name="searchSubmit"><i class="fa fa-search"></i></button>-->
+      </div>
+
+      <button class="navbtn" onclick="openSubnav(event, 'social')"><i class="fa fa-hashtag"></i> Social <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content glade-card" id="social">
+        <a href="http://www.facebook.com/" target="_blank" class="glade-button"><i class="fa fa-facebook-official"> facebook</i></a>
+        <a href="http://www.instagram.com/" target="_blank" class="glade-button"><i class="fa fa-instagram"> Instagram</i></a>
+        <a href="http://www.pinterest.com/" target="_blank" class="glade-button"><i class="fa fa-pinterest-p"> Pinterest</i></a>
+        <a href="http://www.twitter.com/" target="_blank" class="glade-button"><i class="fa fa-twitter"> Twitter</i></a>
+        <a href="http://www.linkedin.com/" target="_blank" class="glade-button"><i class="fa fa-linkedin"> Linkedin</i></a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+      <!--de umblat aici 14.11.2020
+        
+        /*
           if(isset($_GET['signup'])){
             $signupCheck = $_GET['signup'];
             if($signupCheck != "success") {
@@ -60,8 +96,6 @@ include_once 'signup.php';
                   document.getElementById("signupModalForm").style.display="block";
                   </script>';
             }
-          }
-        ?>
-  </div>
-</div>
-
+          }*/
+        
+  -->

@@ -3,7 +3,7 @@
   include_once 'assets/navbar.php';
 ?>
 
-<div class="glade-container opacity" style="padding:128px 16px" id="team">
+<div class="glade-container bgimg-1-opacity" style="padding:128px 16px" id="team">
 
   <h1 class="glade-center">Echipa Highborn</h1>
   <p class="glade-center glade-large">Cei care conduc această companie</p>
@@ -13,7 +13,7 @@
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
 
-        <img src="resurse/sandorgabrielcosmin1.jpg" alt="Gabriel" style="height:270px">
+        <img src="./resurse/photos/crew/sandorgabrielcosmin1.jpg" alt="Gabriel" style="height:270px">
 
         <div class="glade-container">
           <h3>Gabriel Șandor</h3>
@@ -29,7 +29,7 @@
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
 
-        <img src="resurse/ovidiucimpoca1.jpeg" alt="Ovidiu" style="height:270px">
+        <img src="./resurse/photos/crew/ovidiucimpoca1.jpg" alt="Ovidiu" style="height:270px">
 
         <div class="glade-container">
           <h3>Ovidiu Cimpoca</h3>
@@ -45,7 +45,7 @@
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
 
-        <img src="resurse/davidcimpoca1.jpg" alt="David" style="height:270px">
+        <img src="./resurse/photos/crew/davidcimpoca1.jpg" alt="David" style="height:270px">
 
         <div class="glade-container">
           <h3>David Cimpoca</h3>
@@ -61,7 +61,7 @@
     <div class="glade-col l3 m6 glade-margin-bottom">
       <div class="glade-card">
 
-        <img src="resurse/danzbranca.jpg" alt="Dan" style="height:270px">
+        <img src="./resurse/photos/crew/danzbranca.jpg" alt="Dan" style="height:270px">
 
         <div class="glade-container">
           <h3>Dan Zbranca</h3>
@@ -83,7 +83,5 @@
 </div>
 
 <?php
-  include_once 'assets/skill.php';
-
   include_once 'assets/footer.php';
 ?>

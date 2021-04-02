@@ -3,7 +3,7 @@
   include_once 'assets/navbar.php';
 ?>
 
-<div class="glade-container glade-light-grey opacity" style="padding:128px 16px" id="contact">
+<div class="glade-container glade-light-grey bgimg-1-opacity" style="padding:128px 16px" id="contact">
 
   <h1 class="glade-center">CONTACT</h1>
   <p class="glade-center glade-large">Să luăm legătura. Trimite-ne un mesaj:</p>
@@ -15,17 +15,17 @@
       <p><i class="fa fa-envelope fa-fw glade-xxlarge glade-margin-right"> </i> E-mail: contact@universuldinpoiana.ro</p>
       <br>
 <?php 
-  include_once 'assets/errorhandler.php';                                                
+  include_once 'assets/error/errorhandler.php';                                                
 ?>
       <form action="includes/email.inc.php" method="POST">
         <p>
-          <input type="text" name="name" placeholder="Nume" class="glade-input glade-border" autofocus required/>
+          <input type="text" name="name" placeholder="Nume" class="glade-input glade-border"  autocomplete autofocus required/>
         </p>
         <p>
-          <input type="text" name="email" placeholder="E-mail" class="glade-input glade-border" required/>
+          <input type="text" name="email" placeholder="E-mail" class="glade-input glade-border" autocomplete required/>
         </p>
         <p>
-          <input type="text" name="subject" placeholder="Subiect" class="glade-input glade-border" required/>
+          <input type="text" name="subject" placeholder="Subiect" class="glade-input glade-border" autocomplete required/>
         </p>
         <p>
           <textarea name="message" cols="5" rows="4" style="resize:none;" maxlength=350 class="glade-input glade-border" placeholder="Mesaj" required></textarea>

@@ -19,7 +19,7 @@
         <div class="glade-container glade-dark-grey glade-center" style="width:90%">90%</div>
       </div>
 
-      <p class="glade-wide"><i class="fa fa-desktop glade-margin-right"></i>Web Design</p>
+      <p class="glade-wide"><i class="fa fa-desktop glade-margin-right"></i>Dezvoltare Web</p>
       <div class="glade-grey">
         <div class="glade-container glade-dark-grey glade-center" style="width:85%">85%</div>
       </div>
@@ -29,9 +29,14 @@
         <div class="glade-container glade-dark-grey glade-center" style="width:50%">50%</div>
       </div>
 
-      <p class="glade-wide"><i class="fa fa-photo glade-margin-right"></i>Game Development</p>
+      <p class="glade-wide"><i class="fa fa-photo glade-margin-right"></i>Dezvoltarea jocului</p>
       <div class="glade-grey">
         <div class="glade-container glade-dark-grey glade-center" style="width:75%">75%</div>
+      </div>
+
+      <p class="glade-wide"><i class="fa fa-photo glade-margin-right"></i>Construim povești</p>
+      <div class="glade-grey">
+        <div class="glade-container glade-dark-grey glade-center" style="width:10%">10%</div>
       </div>
     </div>
 
