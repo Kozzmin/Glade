@@ -11,7 +11,7 @@
 
   <div class="slidesCompany">
     <div class="numberTextCompany">1 / 6</div> 
-    <img src="./resurse/photos/stuff/negative_Space.jpg" class="imgCompany" alt="Fara spatiu negativ">
+    <img src="./resurse/photos/stuff/negative_space.jpg" class="imgCompany" alt="Fara spatiu negativ">
     <div class="companyImgTextBlock">
       <p class="glade-large"><i class="fa fa-desktop glade-jumbo"></i> Receptiv</p>
     </div>
@@ -67,7 +67,7 @@
 
   <div class="rowCompany"> 
     <div class="columnCompany"> 
-      <img class="demoOpacity cursor imgCompany" src="./resurse/photos/stuff/negative_Space.jpg" onclick="currentSlide(1)" alt="Fara spatiu negativ"> 
+      <img class="demoOpacity cursor imgCompany" src="./resurse/photos/stuff/negative_space.jpg" onclick="currentSlide(1)" alt="Fara spatiu negativ"> 
     </div>
 
     <div class="columnCompany">

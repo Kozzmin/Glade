@@ -68,7 +68,7 @@
       <p><a href="work.php" class="glade-button glade-black"><i class="fa fa-th">&nbsp;</i>Lucrarile noastre</a></p>
     </div>
     <div class="glade-col m6 ">
-      <img class="glade-image glade-round-large" id="imgPromo" src="resurse/photos/characters/elffemaleafterSunder.jpg" alt="Elf female after Sunder">
+      <img class="glade-image glade-round-large" id="imgPromo" src="resurse/photos/characters/elfFemaleafterSunder.jpg" alt="Elf female after Sunder">
       <div id="myPromoModal" class="modalPromo">
         <span class="closePromo">&times;</span>
         <img class="modalPromo-content" id="img01">
@@ -162,7 +162,7 @@
       <p><a href="work.php" class="glade-button glade-black"><i class="fa fa-th">&nbsp;</i>Lucrarile noastre</a></p>
     </div>
     <div class="glade-col m6 ">
-      <img class="glade-image glade-round-large" id="imgPromo" src="resurse/photos/characters/elffemalepreSunder.jpg" alt="Elf female pre Sunder">
+      <img class="glade-image glade-round-large" id="imgPromo" src="resurse/photos/characters/elfFemalepreSunder.jpg" alt="Elf female pre Sunder">
       <div id="myPromoModal" class="modalPromo">
         <span class="closePromo">&times;</span>
         <img class="modalPromo-content" id="img01">
@@ -236,7 +236,7 @@
 </section>
 
 <?php
-    include_once './assets/account/commentSection.php';
+    //include_once './assets/account/commentSection.php';
 ?>
 </div>
 

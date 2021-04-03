@@ -1,6 +1,8 @@
 
 <p class="welcomeMain">Bine ai venit in Universul din poiana!</p>
-
+<h1 class="welcomeMain">--This web site is under construction--</h1>
+<h1 class="welcomeMain">Disclaimer Copyright</h1>
+<h2 class="welcomeMain">All videos, songs, images and graphics used on the website belong to their respective owners and i do not claim any right over them. This website's purpose is for training in web development.</h2>
 <main class="bgimg-1 glade-content glade-display-container glade-grayscale-min">
   
     <div class="glade-large glade-display-bottomleft textBold">

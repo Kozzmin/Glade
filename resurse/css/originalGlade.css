@@ -2212,9 +2212,9 @@ img.imgTeam {
 /*----------------------------------------------*/
 /*-----------------MOBILE version---------------*/
 @media screen and (max-width: 600px) {
-  body {
+  /*body {
     background: pink;
-  }
+  }*/
   div.overlay {
     overflow: hidden;
   }
@@ -2313,9 +2313,9 @@ img.imgTeam {
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-  body {
+  /*body {
     background: green;
-  }
+  }*/
   .navbar {
     display: inline-block;
   }
@@ -2337,9 +2337,9 @@ img.imgTeam {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  body {
+  /*body {
     background: blue;
-  }
+  }*/
   .welcomeBtn {
     display: none;
   }
@@ -2356,9 +2356,9 @@ img.imgTeam {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  body {
+  /*body {
     background: orange;
-  }
+  }*/
 
   section.container-xx-grid {
     display: grid;
@@ -2369,9 +2369,9 @@ img.imgTeam {
 }
 
 @media screen and (min-width: 1200px) {
-  body {
+  /*body {
     background: tan;
-  }
+  }*/
 }
 /*de vazut ce este cu aceasta regula css*/
 @media only screen and (max-width: 700px) {
