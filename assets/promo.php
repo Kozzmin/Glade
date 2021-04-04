@@ -38,7 +38,7 @@
 
   <div class="glade-row-padding">
     <div class="glade-col m6">
-      <h3>Cunoastem echipa Highborn.</h3>
+      <h3>Echipa Highborn.</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
       <p><a href="team.php" class="glade-button glade-black"><i class="fa fa-th">&nbsp;</i>Lucrarile noastre</a></p>
     </div>

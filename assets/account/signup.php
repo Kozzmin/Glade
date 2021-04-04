@@ -3,7 +3,7 @@
   
   
 
-    <form class="modal-content animate" action="includes/signup.inc.php" method="POST">
+    <form class="modal-content animate" action="#" method="POST"> <!--includes/signup.inc.php-->
       
       <div class="container">
           <h1  style="text-align:center">Inscrie-te</h1>

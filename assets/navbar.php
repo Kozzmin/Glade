@@ -21,8 +21,8 @@
         <a href="index.php" class="glade-button"><i class="fa fa-home"></i> Index</a>
         <a onclick= openLoginModal() class="glade-button"><i class="fa fa-sign-in"></i> Conectare</a>
         <a onclick= openSignupModal() class="glade-button"><i class="fa fa-th"></i> Inregistrare</a>
-        <a href="disconnectAccount.php" class="glade-button"><i class="fa fa-sign-out"></i> Deconectare</a><?php    //Logout button//include_once 'account/disconnectAccount.php';?>
-        <a href="userAccount.php" class="glade-button"><i class="fa fa-user"></i> Contul</a><?php  //Username//include_once 'account/userAccount.php';?>
+        <!--<a href="disconnectAccount.php" class="glade-button"><i class="fa fa-sign-out"></i> Deconectare</a><?php    //Logout button//include_once 'account/disconnectAccount.php';?>
+        <a href="userAccount.php" class="glade-button"><i class="fa fa-user"></i> Contul</a><?php  //Username//include_once 'account/userAccount.php';?>-->
       </div>
 
       <button class="navbtn" onclick="openSubnav(event, 'despre')"><i class="fa fa-connectdevelop"></i> Despre <i class="fa fa-caret-down"></i></button>

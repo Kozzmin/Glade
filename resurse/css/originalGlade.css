@@ -2310,6 +2310,10 @@ img.imgTeam {
     height: auto;
     width: auto;
   }
+  .container-races-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -2645,4 +2649,9 @@ div.secondaryFooter {
   color: #000;
   height: 70px;
   padding-top: 10px;
+}
+
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }

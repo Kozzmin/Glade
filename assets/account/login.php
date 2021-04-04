@@ -1,6 +1,6 @@
 <div id="loginModalForm" class="modal">
 
-    <form class="modal-content animate" action="includes/login.inc.php" method="POST">
+    <form class="modal-content animate" action="#" method="POST"> <!--includes/login.inc.php-->
       <div class="imgcontainer">
         <img src="resurse/photos/stuff/avatarForm.png" alt="Avatar" class="avatar">
       </div>
@@ -12,7 +12,7 @@
 
       <div class="container">
         <button type="button" onclick="closeModalLogin()" class="cancelbtn">Anulare</button>                                          
-        <button type="submit" name="submit">Autentificare</button> 
+        <button type="submit" name="submit" class="isDisabled">Autentificare</button> 
         <span class="pwd">Ai uitat <a href="#">parola?</a></span>
         <!--de facut ai uitat parola pagina interogare sql/baza de date 03/03/2021 -->                
       </div>
