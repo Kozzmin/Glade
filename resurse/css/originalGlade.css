@@ -2212,9 +2212,9 @@ img.imgTeam {
 /*----------------------------------------------*/
 /*-----------------MOBILE version---------------*/
 @media screen and (max-width: 600px) {
-  /*body {
+  body {
     background: pink;
-  }*/
+  }
   div.overlay {
     overflow: hidden;
   }
@@ -2310,16 +2310,17 @@ img.imgTeam {
     height: auto;
     width: auto;
   }
-  .container-races-grid {
+
+  section.container-races-grid {
     display: grid;
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-  /*body {
+  body {
     background: green;
-  }*/
+  }
   .navbar {
     display: inline-block;
   }
@@ -2339,11 +2340,15 @@ img.imgTeam {
     grid-gap: 5px;
     overflow: hidden;
   }
+  section.container-races-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  /*body {
+  body {
     background: blue;
-  }*/
+  }
   .welcomeBtn {
     display: none;
   }
@@ -2360,9 +2365,9 @@ img.imgTeam {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  /*body {
+  body {
     background: orange;
-  }*/
+  }
 
   section.container-xx-grid {
     display: grid;
@@ -2373,9 +2378,9 @@ img.imgTeam {
 }
 
 @media screen and (min-width: 1200px) {
-  /*body {
+  body {
     background: tan;
-  }*/
+  }
 }
 /*de vazut ce este cu aceasta regula css*/
 @media only screen and (max-width: 700px) {
@@ -2520,21 +2525,21 @@ img.imgTeam {
   align-items: center;
 }
 
-.container-races-grid {
+section.container-races-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2fr);
   grid-gap: 10px;
   overflow: hidden;
 }
 
-.container-races-grid > div {
+section.container-races-grid > div {
   background-color: #aaff80;
   border: 1px solid black;
   text-align: left;
   padding-top: 8px;
 }
 
-.container-races-grid > img {
+section.container-races-grid > img {
   justify-content: center;
   align-items: center;
 }

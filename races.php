@@ -5,45 +5,38 @@
 <div style="padding:50px 16px"></div>
 <div class="glade-container bgimg-1-opacity">
 
+  <div class="heading">
+    <h1>Rase</h1>
+    <p>
+      Alegerea rasei și a clasei personajelor este unul dintre cele mai speciale și modifiante evenimente pe care le veți experimenta pe măsură ce începeți să jucați Universul din poiana.
+    </p>
+  </div>
 
-    <div class="heading">
+  <div class="glade-table glade-table-all contents-overview">
+    <a class="" id="" href="" style="">
+        <div class="top-decor"></div>
+        <div class="btm-decor"></div>
+        <h2>Elf</h2>
+        <span class="hover-overlay"></span>
+    </a>
 
-        <h1>Rase</h1>
-        <p>
-            Alegerea rasei și a clasei personajelor este unul dintre cele mai speciale și modifiante evenimente pe care le veți experimenta pe măsură ce începeți să jucați Universul din poiana.
-        </p>
+    <a class=" " id=" " href=" " style="">
+        <div class="top-decor"></div>
+        <div class="btm-decor"></div>
+        <h2>Za Ne</h2>
+        <span class="hover-overlay"></span>
+    </a>
 
-
-        </div>
-
-        <div class="glade-table glade-table-all contents-overview">
-
-
-                    <a class="" id="" href="" style="">
-                        <div class="top-decor"></div>
-                        <div class="btm-decor"></div>
-                        <h2>Elf</h2>
-                        <span class="hover-overlay"></span>
-                    </a>
-
-                    <a class=" " id=" " href=" " style="">
-                        <div class="top-decor"></div>
-                        <div class="btm-decor"></div>
-                        <h2>Za Ne</h2>
-                        <span class="hover-overlay"></span>
-                    </a>
-
-                    <a class=" " id=" " href=" " style="">
-                        <div class="top-decor"></div>
-                        <div class="btm-decor"></div>
-                        <h2>Troll</h2>
-                        <span class="hover-overlay"></span>
-                    </a>
-
-        </div>
+    <a class=" " id=" " href=" " style="">
+        <div class="top-decor"></div>
+        <div class="btm-decor"></div>
+        <h2>Troll</h2>
+        <span class="hover-overlay"></span>
+    </a>
+  </div>
 
 </div>
-<div>
+
 <section class="glade-light-grey extraSpace container-races-grid">
   <!-- races after Sunder-->
   <div class="glade-row-padding">
@@ -235,10 +228,10 @@
   </div>
 </section>
 
-<?php
-    //include_once './assets/account/commentSection.php';
-?>
-</div>
+  <?php
+      //include_once './assets/account/commentSection.php';
+  ?>
+
 
 <?php
     include_once 'assets/footer.php';
