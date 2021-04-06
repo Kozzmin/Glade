@@ -40,9 +40,9 @@
         <button onclick="openSubnavGame(event, 'rase')" class="subnav-link"><i class="fa fa-gamepad"></i> Rase <i class="fa fa-caret-down"></i></button>
           <div class="subnav-game glade-card" id="rase">
             <a href="races.php" class="glade-button">Informatii rase</a>
-            <a href="rasaElf.php" class="glade-button"><i class=""></i> Rasa Elf</a>
-            <a href="rasaZaNe.php" class="glade-button"><i class=""></i> Rasa Za Ne</a>  
-            <a href="rasaTrolli.php" class="glade-button"><i class=""></i> Rasa Trolli</a> 
+            <a href="raceElf.php" class="glade-button"><i class=""></i> Rasa Elf</a>
+            <a href="raceZaNe.php" class="glade-button"><i class=""></i> Rasa Za Ne</a>  
+            <a href="raceTrolli.php" class="glade-button"><i class=""></i> Rasa Trolli</a> 
           </div>
 
         <button onclick="openSubnavRace(event, 'clase')" class="subnav-link"><i class="fa fa-gamepad"></i> Clase <i class="fa fa-caret-down"></i></button>

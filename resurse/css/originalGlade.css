@@ -1572,6 +1572,8 @@ a {
 .glade-hover-border-pale-blue:hover {
   border-color: #e7ffff;
 }
+
+/*-----------------------------CUSTOM CSS*/
 .buttonSearch {
   height: 20px;
 }
@@ -1640,7 +1642,7 @@ span.psw {
 /* The Modal (background) */
 .modal {
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 2;
   left: 0;
   top: 0;
@@ -2336,13 +2338,13 @@ img.imgTeam {
   }
   section.container-xx-grid {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     grid-gap: 5px;
-    overflow: hidden;
   }
   section.container-races-grid {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 5px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -2358,7 +2360,7 @@ img.imgTeam {
   }
   section.container-xx-grid {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     overflow: hidden;
   }
@@ -2525,21 +2527,21 @@ img.imgTeam {
   align-items: center;
 }
 
-section.container-races-grid {
+.container-races-grid {
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   overflow: hidden;
 }
 
-section.container-races-grid > div {
+.container-races-grid > div {
   background-color: #aaff80;
   border: 1px solid black;
   text-align: left;
   padding-top: 8px;
 }
 
-section.container-races-grid > img {
+.container-races-grid > img {
   justify-content: center;
   align-items: center;
 }

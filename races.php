@@ -13,21 +13,21 @@
   </div>
 
   <div class="glade-table glade-table-all contents-overview">
-    <a class="" id="" href="" style="">
+    <a class="" id="" href="assets/raceElf.php" style="">
         <div class="top-decor"></div>
         <div class="btm-decor"></div>
         <h2>Elf</h2>
         <span class="hover-overlay"></span>
     </a>
 
-    <a class=" " id=" " href=" " style="">
+    <a class=" " id=" " href="assets/raceZaNe.php" style="">
         <div class="top-decor"></div>
         <div class="btm-decor"></div>
         <h2>Za Ne</h2>
         <span class="hover-overlay"></span>
     </a>
 
-    <a class=" " id=" " href=" " style="">
+    <a class=" " id=" " href="assets/raceTrolli.php" style="">
         <div class="top-decor"></div>
         <div class="btm-decor"></div>
         <h2>Troll</h2>
@@ -35,7 +35,7 @@
     </a>
   </div>
 
-</div>
+
 
 <section class="glade-light-grey extraSpace container-races-grid">
   <!-- races after Sunder-->
@@ -227,7 +227,7 @@
     </div>
   </div>
 </section>
-
+</div>
   <?php
       //include_once './assets/account/commentSection.php';
   ?>
