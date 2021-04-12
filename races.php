@@ -13,24 +13,24 @@
   </div>
 
   <div class="glade-table glade-table-all contents-overview">
-    <a class="" id="" href="assets/raceElf.php" style="">
+    <a class="" id="" href="raceElf.php" style="">
         <div class="top-decor"></div>
         <div class="btm-decor"></div>
         <h2>Elf</h2>
         <span class="hover-overlay"></span>
     </a>
 
-    <a class=" " id=" " href="assets/raceZaNe.php" style="">
+    <a class=" " id=" " href="raceZaNe.php" style="">
         <div class="top-decor"></div>
         <div class="btm-decor"></div>
         <h2>Za Ne</h2>
         <span class="hover-overlay"></span>
     </a>
 
-    <a class=" " id=" " href="assets/raceTrolli.php" style="">
+    <a class=" " id=" " href="raceTrolli.php" style="">
         <div class="top-decor"></div>
         <div class="btm-decor"></div>
-        <h2>Troll</h2>
+        <h2>Trolli</h2>
         <span class="hover-overlay"></span>
     </a>
   </div>

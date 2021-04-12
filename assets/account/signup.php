@@ -6,8 +6,8 @@
     <form class="modal-content animate" action="#" method="POST"> <!--includes/signup.inc.php-->
       
       <div class="container">
-          <h1  style="text-align:center">Inscrie-te</h1>
-          <h4 style="text-align:center">Vă rugăm să completați acest formular pentru a vă crea un cont</h4>
+          <h1 class="" style="text-align:center">Inscrie-te</h1>
+          <h4 class="" style="text-align:center">Vă rugăm să completați acest formular pentru a vă crea un cont</h4>
 
           <input type="text" placeholder="Nume" name="first" autocomplete required>
           <input type="text" placeholder="Prename" name="last" autocomplete required>
@@ -21,7 +21,6 @@
           <div class="clearfix">
             <button type="button" onclick="closeModalSignup()" class="cancelbtn">Anulare</button>
             <button type="submit" name="submit">Inscrie-te</button>
-            
           </div>
 
         </div>

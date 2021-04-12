@@ -1632,6 +1632,7 @@ img.avatar {
 .container {
   padding: 10px;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 span.psw {
@@ -1662,8 +1663,7 @@ span.psw {
 /* Modal Content/Box */
 form.modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto;
-  border: 1px solid #888;
+  margin: auto;
   width: 60%;
 }
 
@@ -1809,14 +1809,6 @@ h6 {
   height: 80px;
   background-color: #fff;
   resize: none;
-}
-
-@media (orientation: landscape) {
-  /*exemplu pentru landscape-- foarte important*/
-}
-
-@media (orientation: portrait) {
-  /*exemplu pentru landscape-- foarte important*/
 }
 
 /*sidebar from navbar.php*/
@@ -2212,6 +2204,13 @@ img.imgTeam {
 }
 
 /*----------------------------------------------*/
+@media (orientation: landscape) {
+  /*exemplu pentru landscape-- foarte important*/
+}
+
+@media (orientation: portrait) {
+  /*exemplu pentru landscape-- foarte important*/
+}
 /*-----------------MOBILE version---------------*/
 @media screen and (max-width: 600px) {
   body {
@@ -2229,13 +2228,21 @@ img.imgTeam {
   button {
     text-align: left;
   }
-
+  .modal button {
+    margin: 3px 0;
+  }
+  .modal input[type="text"],
+  input[type="password"] {
+    margin: 3px 0;
+  }
   div.overlay a.closebtn {
     /*butonul X*/
     bottom: 5px;
     padding: 0 8px;
   }
-
+  .container {
+    line-height: 1;
+  }
   div.subnav-content {
     padding: 0 5px;
     display: none;
@@ -2644,6 +2651,7 @@ img.imgTeam {
 ul.footerList {
   list-style: none;
   margin: 0 10px;
+  padding: 0;
 }
 
 div.secondaryFooter {
