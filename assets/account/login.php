@@ -7,9 +7,8 @@
 
       <div class="container">                     
         <input type="text" placeholder="Introduceti nume de utilizator" name="uid" autocomplete required>
-        <input type="password" placeholder="Introduceti parola" name="pwd" required>
+        <input type="password" placeholder="Introduceti parola" name="pwd" required> 
       </div>
-
       <div class="container">
         <button type="button" onclick="closeModalLogin()" class="cancelbtn">Anulare</button>                                          
         <button type="submit" name="submit" class="isDisabled">Autentificare</button> 
