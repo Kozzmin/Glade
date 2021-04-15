@@ -14,8 +14,8 @@
   <div id="navOverlay" class="overlay" >
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <div class="overlay-content">
-      
+    <div class="overlay-content"> <!--display flex-->
+      <div> <!--de facut bara cum trebuie-->
       <button class="navbtn" onclick="openSubnav(event, 'poiana')"><i class="fa fa-pagelines"></i> Poiana <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content glade-card" id="poiana">
         <a href="index.php" class="glade-button"><i class="fa fa-home"></i> Index</a>
@@ -24,7 +24,8 @@
         <!--<a href="disconnectAccount.php" class="glade-button"><i class="fa fa-sign-out"></i> Deconectare</a><?php    //Logout button//include_once 'account/disconnectAccount.php';?>
         <a href="userAccount.php" class="glade-button"><i class="fa fa-user"></i> Contul</a><?php  //Username//include_once 'account/userAccount.php';?>-->
       </div>
-
+      </div>
+      <div>
       <button class="navbtn" onclick="openSubnav(event, 'despre')"><i class="fa fa-connectdevelop"></i> Despre <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content glade-card" id="despre">
         <a href="aboutcompany.php" class="glade-button"><i class="fa fa-home"></i> Companie</a>
@@ -32,7 +33,8 @@
         <a href="work.php" class="glade-button"><i class="fa fa-th"></i> Proiecte</a>
         <a href="contact.php" class="glade-button"><i class="fa fa-envelope"></i> Contact</a>
       </div>
-
+      </div>
+      <div>
       <button class="navbtn" onclick="openSubnav(event, 'joc')"><i class="fa fa-gamepad"></i> Joc <i class="fa fa-caret-down"></i></button> <!--de facut clasa separat pentru containerul "joc" pentru a alinia spre dreapta butoanele.Sub-butoanele arata si se comporta ca butoanele principale-->
       <div class="subnav-content glade-card" id="joc">
         <a href="overview.php" class="glade-button">Informatii generale</a>
@@ -64,7 +66,8 @@
             </form>
             <button type="submit" class="" id="myButton" name="searchSubmit"><i class="fa fa-search"></i></button>-->
       </div>
-
+      </div>
+      <div>
       <button class="navbtn" onclick="openSubnav(event, 'social')"><i class="fa fa-hashtag"></i> Social <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content glade-card" id="social">
         <a href="http://www.facebook.com/" target="_blank" class="glade-button"><i class="fa fa-facebook-official"> facebook</i></a>
@@ -73,7 +76,7 @@
         <a href="http://www.twitter.com/" target="_blank" class="glade-button"><i class="fa fa-twitter"> Twitter</i></a>
         <a href="http://www.linkedin.com/" target="_blank" class="glade-button"><i class="fa fa-linkedin"> Linkedin</i></a>
       </div>
-
+      </div>
     </div>
   </div>
 </nav>

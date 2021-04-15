@@ -2201,6 +2201,10 @@ img.imgTeam {
 /*----------------------------------------------*/
 @media (orientation: landscape) {
   /*exemplu pentru landscape-- foarte important*/
+
+  .overlay-content {
+  }
+
   form.modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -2208,6 +2212,8 @@ img.imgTeam {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 90%;
+    gap: 2%;
+    padding: 1%;
   }
   img.avatar {
     width: 50%;
@@ -2216,8 +2222,29 @@ img.imgTeam {
   }
   .form-container {
     line-height: 1;
-    font-size: 0.7rem;
+    font-size: 1rem;
     padding-right: 10%;
+  }
+  div.formContainerDiv {
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  form.formSignupContainer {
+    background-color: #fefefe;
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90%;
+    gap: 2%;
+    padding: 1%;
+    line-height: 1;
+    font-size: 1rem;
+  }
+  div.clearFormButton {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
   }
 }
 
@@ -2236,6 +2263,7 @@ img.imgTeam {
     top: 0;
     left: 0;
     width: 100%;
+    line-height: 1;
   }
   div#navOverlay,
   button {
@@ -2316,6 +2344,11 @@ img.imgTeam {
     color: #000;
   }
   form.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    width: 100%;
+  }
+  form.formSignupContainer {
     background-color: #fefefe;
     margin: auto;
     width: 100%;

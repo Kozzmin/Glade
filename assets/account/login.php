@@ -1,15 +1,15 @@
 <div id="loginModalForm" class="modal">
 
-  <form class="modal-content animate" action="#" method="POST"> <!--includes/login.inc.php-->
+  <form class="modal-content animate bgimg-1-opacity" action="#" method="POST"> <!--includes/login.inc.php-->
     <div class="imgcontainer">
       <img src="resurse/photos/stuff/avatarForm.png" alt="Avatar" class="avatar">
     </div>
     <section class="form-container">
-      <div class="container">                     
+      <div class="formContainerDiv">                     
         <input type="text" placeholder="Introduceti nume de utilizator" name="uid" autocomplete required>
         <input type="password" placeholder="Introduceti parola" name="pwd" required> 
       </div>
-      <div class="container">
+      <div class="formContainerDiv">
         <button type="button" onclick="closeModalLogin()" class="cancelbtn">Anulare</button>                                          
         <button type="submit" name="submit" class="isDisabled">Autentificare</button> 
         <span class="pwd">Ai uitat <a href="#">parola?</a></span>
