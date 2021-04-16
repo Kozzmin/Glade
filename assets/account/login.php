@@ -1,9 +1,12 @@
 <div id="loginModalForm" class="modal">
 
   <form class="modal-content animate bgimg-1-opacity" action="#" method="POST"> <!--includes/login.inc.php-->
+  <h1 class="" style="text-align:center">Autentificate</h1>
+      <h4 class="" style="text-align:center">Vă rugăm să completați acest formular pentru a vă conecta la cont</h4>
     <div class="imgcontainer">
       <img src="resurse/photos/stuff/avatarForm.png" alt="Avatar" class="avatar">
     </div>
+
     <section class="form-container">
       <div class="formContainerDiv">                     
         <input type="text" placeholder="Introduceti nume de utilizator" name="uid" autocomplete required>
