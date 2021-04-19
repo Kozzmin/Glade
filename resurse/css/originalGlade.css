@@ -1151,7 +1151,7 @@ a {
 .glade-button:hover {
   color: #000;
   background-color: #ccc;
-  border-bottom: 1px solid #aaff80; /* modificat 15.11.2020*/
+  /* modificat 15.11.2020*/
 }
 
 .glade-transparent,
@@ -1563,7 +1563,26 @@ a {
 }
 
 /*-----------------------------CUSTOM CSS*/
-
+/* Modal Content/Box */
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
+  background-position: center;
+  background-size: contain;
+  background-image: url("../photos/stuff/gladelogotransparentwhite.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
 /* Câmpuri de intrare pe lățime totală */
 .modal input[type="text"],
 input[type="password"] {
@@ -1592,92 +1611,6 @@ input[type="password"] {
   color: white;
 }
 
-/* Stiluri suplimentare pentru butonul de anulare */
-.cancelbtn:hover {
-  background-color: #f44336;
-}
-
-/*    */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 50%;
-  border-radius: 50%;
-  border: 5px solid #4caf50;
-  margin-top: 5%;
-}
-
-.container {
-  padding: 10px;
-  box-sizing: border-box;
-  line-height: 1.5;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 1);
-  padding-top: 60px;
-  background-position: center;
-  background-size: contain;
-  background-image: url("../photos/stuff/gladelogotransparentwhite.png");
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-/* Modal Content/Box */
-form.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  width: 60%;
-  padding: 1%;
-}
-form.formSignupContainer {
-  background-color: #fefefe;
-  margin: auto;
-  width: 60%;
-  display: block;
-  gap: 2%;
-  padding: 1%;
-  line-height: 1;
-  font-size: 1rem;
-}
-
-/* Button de inchidere (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
 /* Add Zoom Animation */
 .animate {
   -webkit-animation: animatezoom 0.6s;
@@ -1702,16 +1635,42 @@ form.formSignupContainer {
   }
 }
 
-/*  */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
+/* Stiluri suplimentare pentru butonul de anulare */
+.cancelbtn:hover {
+  background-color: #f44336;
 }
+
+/*    */
+.modalLoginImgContainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 50%;
+  border-radius: 50%;
+  border: 5px solid #4caf50;
+  margin-top: 5%;
+}
+
+form.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  width: 50%;
+  padding: 1%;
+}
+form.formSignupContainer {
+  background-color: #fefefe;
+  margin: auto;
+  width: 60%;
+  display: block;
+  gap: 2%;
+  padding: 1%;
+  line-height: 1;
+  font-size: 1rem;
+}
+
 body,
 h1,
 h2,
@@ -1723,6 +1682,7 @@ h6 {
 }
 
 .bgimg-1 {
+  /*background img*/
   padding-top: 20px;
   background-position: center;
   background-size: contain;
@@ -1737,18 +1697,8 @@ h6 {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-.error {
-  color: red;
-}
-.success {
-  color: green;
-}
 
-.show {
-  display: block;
-}
-
-/* zona de comentarii*/
+/* zona de comentarii --commentSection.php--*/
 .comment-box {
   width: 815px;
   padding: 20px;
@@ -1804,113 +1754,6 @@ h6 {
   height: 80px;
   background-color: #fff;
   resize: none;
-}
-
-/*sidebar from navbar.php*/
-
-.sidebarNav-toggle {
-  right: 3rem;
-  cursor: pointer;
-}
-.sidebarNav-toggle:hover {
-  color: var(--clr-primary-7);
-}
-@keyframes bounce {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.sidebarNav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  background-color: #aaff80;
-  width: 100%;
-  height: 50px;
-}
-
-.sidebarNav {
-  position: fixed;
-  font-weight: bold;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-image: url("../photos/stuff/gladelogotransparentwhite.png");
-  background-repeat: repeat;
-  background-size: contain;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  box-shadow: var(--clr-red-dark);
-  transition: var(--transition);
-  transform: translate(-100%);
-}
-.show-sidebarNav {
-  transform: translate(0);
-}
-@media all and (min-width: 600px) {
-  .sidebarNav {
-    width: 400px;
-    overflow: hidden;
-  }
-  .sidebarNav-toggle {
-    display: inline;
-  }
-}
-
-.closeNav-btn {
-  font-size: 1.75rem;
-  background: transparent;
-  border-color: transparent;
-  color: var(--clr-primary-5);
-  transition: var(--transition);
-  cursor: pointer;
-  color: var(--clr-red-dark);
-}
-.closeNav-btn:hover {
-  color: var(--clr-red-light);
-  transform: rotate(360deg);
-}
-.logoNav {
-  justify-self: center;
-  height: 50px;
-  background-size: cover;
-}
-
-.linksNav a {
-  display: block;
-  font-weight: bold;
-  text-transform: capitalize;
-  color: var(--clr-grey-5);
-  transition: var(--transition);
-}
-.linksNav a:hover {
-  background-color: #aaff80;
-  color: var(--clr-primary-5);
-  padding-left: 1.75rem;
-}
-.socialNav-icons {
-  justify-self: center;
-  display: flex;
-  padding-bottom: 2rem;
-}
-.socialNav-icons a {
-  font-size: 1.5rem;
-  margin: 0 0.5rem;
-  color: var(--clr-primary-5);
-  transition: var(--transition);
-}
-.socialNav-icons a:hover {
-  color: var(--clr-primary-1);
 }
 
 /*navbar.php*/
@@ -2009,18 +1852,15 @@ div.overlay a.closebtn {
   position: absolute;
   bottom: 0;
   right: 15px;
-  font-size: 80px;
   z-index: 1;
-  color: #aaff80;
-  opacity: 0.5;
-  padding: 0;
+  padding: 10px;
 }
 
-div.overlay a.closebtn:hover {
-  color: #fff;
-  opacity: 1;
+.buttonX {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
 }
-
 div.subnav-content {
   padding: 0 5px;
   display: none;
@@ -2195,73 +2035,135 @@ img.imgTeam {
   max-height: 350px;
 }
 
-/*----------------------------------------------*/
-@media (orientation: landscape) {
-  /*exemplu pentru landscape-- foarte important*/
-
-  .overlay-content {
-  }
-
-  form.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 90%;
-    gap: 2%;
-    padding: 1%;
-  }
-  img.avatar {
-    width: 50%;
-    border-radius: 50%;
-    margin-top: 10%;
-  }
-  .form-container {
-    line-height: 1;
-    font-size: 1rem;
-    padding-right: 10%;
-  }
-  div.formContainerDiv {
-    box-sizing: border-box;
-    line-height: 1.5;
-  }
-  form.formSignupContainer {
-    background-color: #fefefe;
-    margin: auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 90%;
-    gap: 2%;
-    padding: 1%;
-    line-height: 1;
-    font-size: 1rem;
-  }
-  div.clearFormButton {
-    display: flex;
-    flex-direction: row;
-    gap: 1%;
-  }
-}
-
-@media (orientation: portrait) {
-  /*exemplu pentru landscape-- foarte important*/
-}
 /*-----------------MOBILE version---------------*/
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: tan;
+  }
+  .modal {
+    padding-top: 60px;
+  }
+  div.overlay-content {
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background: orange;
+  }
+
+  section.container-xx-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background: blue;
+  }
+  .welcomeBtn {
+    display: none;
+  }
+
+  .glade-xlarge {
+    font-size: 18px;
+  }
+  section.container-xx-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .welcomeBtn {
+    display: none;
+  }
+
+  .glade-xlarge {
+    font-size: 18px;
+  }
+  .glade-large {
+    font-size: 16px;
+  }
+  section.container-xx-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  section.container-races-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  .modalPromo-content {
+    width: 100%;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   body {
     background: pink;
   }
-  div.overlay {
-    overflow: hidden;
-  }
+
   div.overlay-content {
     top: 0;
     left: 0;
     width: 100%;
-    line-height: 1;
+    line-height: 0.8;
   }
+  div.overlay button {
+    margin-top: 0;
+  }
+
   div#navOverlay,
   button {
     text-align: left;
@@ -2273,11 +2175,7 @@ img.imgTeam {
   input[type="password"] {
     margin: 3px 0;
   }
-  div.overlay a.closebtn {
-    /*butonul X*/
-    bottom: 5px;
-    padding: 0 8px;
-  }
+
   .container {
     line-height: 1;
   }
@@ -2369,130 +2267,7 @@ img.imgTeam {
     display: grid;
     grid-template-columns: 1fr;
   }
-}
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
-  body {
-    background: green;
-  }
-  .navbar {
-    display: inline-block;
-  }
-  .welcomeBtn {
-    display: none;
-  }
-
-  .glade-xlarge {
-    font-size: 18px;
-  }
-  .glade-large {
-    font-size: 16px;
-  }
-  section.container-xx-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
-  }
-  section.container-races-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  body {
-    background: blue;
-  }
-  .welcomeBtn {
-    display: none;
-  }
-
-  .glade-xlarge {
-    font-size: 18px;
-  }
-  section.container-xx-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    overflow: hidden;
-  }
-  form.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    width: 100%;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-  }
-  form.formSignupContainer {
-    background-color: #fefefe;
-    width: 100%;
-    padding: 1%;
-    display: block;
-    height: 70%;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  body {
-    background: orange;
-  }
-
-  section.container-xx-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    overflow: hidden;
-  }
-  form.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    width: 100%;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-  }
-  form.formSignupContainer {
-    background-color: #fefefe;
-    width: 100%;
-    padding: 1%;
-    display: block;
-    height: 70%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-    background: tan;
-  }
-  form.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    width: 40%;
-    height: 95%;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-  form.formSignupContainer {
-    background-color: #fefefe;
-    width: 100%;
-    padding: 1%;
-    display: block;
-    height: 70%;
-  }
-}
-/*de vazut ce este cu aceasta regula css*/
-@media only screen and (max-width: 700px) {
-  .modalPromo-content {
-    width: 100%;
-  }
-}
-/*de vazut ce este cu aceasta regula css*/
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
   .col-s-1 {
     width: 8.33%;
   }
@@ -2531,80 +2306,21 @@ img.imgTeam {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {
-    width: 8.33%;
+@media screen and (max-width: 400px) {
+  body {
+    background: aquamarine;
   }
-  .col-2 {
-    width: 16.66%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-5 {
-    width: 41.66%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-7 {
-    width: 58.33%;
-  }
-  .col-8 {
-    width: 66.66%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.33%;
-  }
-  .col-11 {
-    width: 91.66%;
-  }
-  .col-12 {
-    width: 100%;
+
+  div.overlay-content {
+    font-size: 16px;
+    line-height: 0.8;
   }
 }
-/**media END*/
+/*end MEDIA*/
+
 /*promo.php*/
 .extraSpace {
   padding: 128px 16px;
-}
-
-.dropdownPromoContainer {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdownPromo-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdownPromoContainer:hover .dropdownPromo-content {
-  display: block;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-.img-cover {
-  object-fit: cover;
-}
-
-.img-contain {
-  object-fit: contain;
 }
 
 .container-xx-grid {

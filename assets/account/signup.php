@@ -3,7 +3,7 @@
   
   
 
-    <form class="formSignupContainer animate bgimg-1-opacity" action="#" method="POST"> <!--includes/signup.inc.php-->
+    <form class="modal-content animate bgimg-1-opacity" action="#" method="POST"> <!--includes/signup.inc.php-->
       
       <h1 class="" style="text-align:center">Inscrie-te</h1>
       <h4 class="" style="text-align:center">Vă rugăm să completați acest formular pentru a vă crea un cont</h4>

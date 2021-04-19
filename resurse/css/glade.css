@@ -1,0 +1,62 @@
+/*----------------------------------------------*/
+@media (orientation: landscape) {
+  /*exemplu pentru landscape-- foarte important*/
+
+  div.overlay {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  div.overlay-contentDiv {
+  }
+
+  div.subnav-content {
+    display: none;
+  }
+  form.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90%;
+    gap: 2%;
+    padding: 1%;
+  }
+  img.avatar {
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 10%;
+  }
+  .form-container {
+    line-height: 1;
+    font-size: 1rem;
+    padding-right: 10%;
+  }
+  div.formContainerDiv {
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  form.formSignupContainer {
+    background-color: #fefefe;
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90%;
+    gap: 2%;
+    padding: 1%;
+    line-height: 1;
+    font-size: 1rem;
+  }
+  div.clearFormButton {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+  }
+}
+
+@media (orientation: portrait) {
+  /*exemplu pentru landscape-- foarte important*/
+}
+
+/*--------------------*media END*/
